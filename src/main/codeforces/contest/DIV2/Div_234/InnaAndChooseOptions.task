@@ -1,0 +1,32 @@
+20 InnaAndChooseOptions
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+53 4
+OXXXOXOOXOOX
+OXOXOXOXOXOX
+XXXXXXXXXXXX
+OOOOOOOOOOOO
+63 3 1x12 2x6 4x3
+4 1x12 2x6 3x4 6x2
+6 1x12 2x6 3x4 4x3 6x2 12x1
+0
+1
+40 src/main/codeforces/contest/DIV2/Div_234
+16 -Xmx256m -Xss64m
+4 Main
+57 main.codeforces.contest.DIV2.Div_234.InnaAndChooseOptions
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.03.05
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

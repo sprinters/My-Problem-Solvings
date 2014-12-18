@@ -1,0 +1,36 @@
+18 RegistrationSystem
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+39 6
+first
+first
+second
+second
+third
+third
+30 OK
+first1
+OK
+second1
+OK
+third1
+1
+36 src/main/codeforces/practice/hashing
+16 -Xmx256m -Xss64m
+4 Main
+51 main.codeforces.practice.hashing.RegistrationSystem
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.04
+10 codeforces
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

@@ -1,0 +1,30 @@
+14 SnapeAndLadder
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+17 3
+4 5
+10 12
+10 20
+43 3.0 6.40312
+6.63325 15.6205
+17.3205 22.3607
+1
+37 src/main/codechef/cookoffs/april_2014
+16 -Xmx256m -Xss64m
+4 Main
+48 main.codechef.cookoffs.april_2014.SnapeAndLadder
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.20
+8 codechef
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

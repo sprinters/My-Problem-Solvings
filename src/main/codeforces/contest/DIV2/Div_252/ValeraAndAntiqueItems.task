@@ -1,0 +1,36 @@
+21 ValeraAndAntiqueItems
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+50 3 50000
+1 40000
+2 20000 60000
+3 10000 70000 190000
+7 3
+1 2 3
+1
+1
+61 3 50000
+1 50000
+3 100000 120000 110000
+3 120000 110000 120000
+1 0
+1
+40 src/main/codeforces/contest/DIV2/Div_252
+16 -Xmx256m -Xss64m
+4 Main
+58 main.codeforces.contest.DIV2.Div_252.ValeraAndAntiqueItems
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.06.08
+10 codeforces
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

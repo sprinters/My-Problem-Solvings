@@ -1,0 +1,28 @@
+13 DivideTheCake
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+5 2
+4
+7
+11 y y y
+n y y
+1
+35 src/main/codechef/cookoffs/may_2014
+16 -Xmx256m -Xss64m
+4 Main
+45 main.codechef.cookoffs.may_2014.DivideTheCake
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.18
+8 codechef
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

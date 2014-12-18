@@ -1,0 +1,39 @@
+10 GameOfBots
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+15 #A#B#B# A###B#B
+3 Yes
+1
+1
+11 #A#B# #B#A#
+3 No
+
+1
+2
+9 #### ####
+3 Yes
+1
+3
+9 #AAA
+B###
+2 No
+1
+32 src/main/hackerearth/commonfloor
+16 -Xmx256m -Xss64m
+4 Main
+39 main.hackerearth.commonfloor.GameOfBots
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.02.09
+8 codechef
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

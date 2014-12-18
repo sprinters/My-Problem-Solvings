@@ -1,0 +1,40 @@
+20 KolyaAndTandemRepeat
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+6 aaba
+2
+1 6
+1
+1
+9 aaabbbb
+2
+1 6
+1
+2
+14 abracadabra
+10
+2 20
+1
+3
+3 a 1
+1 2
+1
+40 src/main/codeforces/contest/DIV2/Div_253
+16 -Xmx256m -Xss64m
+4 Main
+57 main.codeforces.contest.DIV2.Div_253.KolyaAndTandemRepeat
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.06.19
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

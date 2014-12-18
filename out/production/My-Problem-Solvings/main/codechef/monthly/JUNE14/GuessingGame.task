@@ -1,0 +1,32 @@
+12 GuessingGame
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+17 4
+1 1
+1 2
+2 3
+3 3
+15 0/1
+1/2
+1/2
+4/9
+1
+32 src/main/codechef/monthly/JUNE14
+16 -Xmx256m -Xss64m
+4 Main
+41 main.codechef.monthly.JUNE14.GuessingGame
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.06.07
+8 codechef
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

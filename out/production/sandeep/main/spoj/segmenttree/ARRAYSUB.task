@@ -1,0 +1,21 @@
+8 ARRAYSUB
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+19 src/main/spoj/fresh
+16 -Xmx256m -Xss64m
+4 Main
+24 main.spoj.fresh.ARRAYSUB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.12.02
+4 spoj
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

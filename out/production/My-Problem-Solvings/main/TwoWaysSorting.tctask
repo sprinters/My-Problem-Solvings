@@ -1,0 +1,68 @@
+14 TwoWaysSorting
+13 sortingMethod
+16 java.lang.String
+1
+18 java.lang.String[]
+10 stringList
+6
+0
+1
+String[] 3
+1 a
+2 aa
+3 bbb
+String
+4 both
+1
+1
+1
+String[] 3
+1 c
+2 bb
+3 aaa
+String
+7 lengths
+1
+2
+1
+String[] 2
+7 etdfgfh
+3 aio
+String
+4 none
+1
+3
+1
+String[] 2
+3 aaa
+1 z
+String
+17 lexicographically
+1
+4
+1
+String[] 1
+1 z
+String
+4 both
+1
+5
+1
+String[] 7
+6 abcdef
+5 bcdef
+4 cdef
+3 def
+2 ef
+1 f
+8 topcoder
+String
+17 lexicographically
+1
+10 2014.05.20
+22 Single Round Match 621
+1
+27 main.TwoWaysSortingTestCase
+19 main.TwoWaysSorting
+0
+4 256M

@@ -1,0 +1,29 @@
+16 PalindromeDegree
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+3 a2A
+1 1
+1
+1
+7 abacaba
+1 6
+1
+36 src/main/codeforces/practice/hashing
+16 -Xmx256m -Xss64m
+4 Main
+49 main.codeforces.practice.hashing.PalindromeDegree
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.07
+10 codeforces
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

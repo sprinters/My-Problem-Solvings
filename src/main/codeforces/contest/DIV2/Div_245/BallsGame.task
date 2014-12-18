@@ -1,0 +1,31 @@
+9 BallsGame
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+17 6 2 2
+1 1 2 2 1 1
+1 6
+1
+1
+7 1 1 1
+1
+1 0
+1
+40 src/main/codeforces/contest/DIV2/Div_245
+16 -Xmx256m -Xss64m
+4 Main
+46 main.codeforces.contest.DIV2.Div_245.BallsGame
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.12
+10 codeforces
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

@@ -1,0 +1,21 @@
+17 ModifyTheSequence
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+22 src/main/hackerrank/dp
+16 -Xmx256m -Xss64m
+4 Main
+36 main.hackerrank.practice.dp.ModifyTheSequence
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.11.30
+4 spoj
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

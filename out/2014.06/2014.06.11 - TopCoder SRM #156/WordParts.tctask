@@ -1,0 +1,47 @@
+9 WordParts
+9 partCount
+3 int
+2
+16 java.lang.String
+8 original
+16 java.lang.String
+8 compound
+4
+0
+2
+String
+5 ABCDA
+String
+6 ABCDAB
+int 2
+1
+1
+2
+String
+3 abc
+String
+3 acb
+int -1
+1
+2
+2
+String
+22 DONTFORGETTHEEMPTYCASE
+String
+0 
+int 0
+1
+3
+2
+String
+50 PHPPPPPHPHHHHHPPPHHHPPHHPPPHPPPPPPPHHHPHHHPHHPPPPH
+String
+50 PPPPPHHHHPPPPHPPPPHHHPPPPHPHPHPPHHPPPPHPPPPPHPHPPP
+int 12
+1
+10 2014.06.11
+17 TopCoder SRM #156
+0
+14 main.WordParts
+0
+3 64M

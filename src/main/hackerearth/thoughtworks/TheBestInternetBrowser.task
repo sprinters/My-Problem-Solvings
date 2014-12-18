@@ -1,0 +1,28 @@
+22 TheBestInternetBrowser
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+36 2
+www.google.com
+www.hackerearth.com
+10 7/14
+11/19
+1
+33 src/main/hackerearth/thoughtworks
+16 -Xmx256m -Xss64m
+4 Main
+52 main.hackerearth.thoughtworks.TheBestInternetBrowser
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.07.27
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

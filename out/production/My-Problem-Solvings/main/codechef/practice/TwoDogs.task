@@ -1,0 +1,31 @@
+7 TwoDogs
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+13 5 5
+2 4 3 2 1
+1 2
+1
+1
+13 5 5
+2 4 9 2 5
+2 -1
+1
+26 src/main/codechef/practice
+16 -Xmx256m -Xss64m
+4 Main
+30 main.codechef.practice.TwoDogs
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.02.17
+8 codechef
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

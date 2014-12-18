@@ -1,0 +1,97 @@
+5 TaskB
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+12
+0
+5 2
+2 1
+1 1
+1
+1
+7 3
+1 3 2
+2 -1
+1
+2
+5 2
+1 2
+1 0
+1
+3
+7 3
+2 2 2
+1 0
+1
+4
+17 7
+
+1 5 6 1 1 1 1
+
+1 4
+1
+5
+15 6
+
+3 4 5 6 3 2
+
+2 -1
+1
+6
+9 3
+
+1 2 1
+
+1 1
+1
+7
+14 5
+
+1 1 2 1 1
+2
+1 2
+1
+8
+11 4
+
+5 4 5 4
+
+2 -1
+1
+9
+13 5
+
+1 2 1 1 1
+
+1 3
+1
+10
+15 6
+
+1 2 3 1 1 1
+
+1 3
+1
+11
+13 5
+
+1 3 3 3 1
+
+1 1
+1
+40 src/main/codeforces/contest/DIV2/Div_259
+16 -Xmx256m -Xss64m
+4 Main
+42 main.codeforces.contest.DIV2.Div_259.TaskB
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.08.01
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

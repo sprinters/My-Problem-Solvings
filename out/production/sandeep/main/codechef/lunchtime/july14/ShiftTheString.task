@@ -1,0 +1,37 @@
+14 ShiftTheString
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+13 5
+ccadd
+bddcc
+1 3
+1
+1
+11 4 ccad ccca
+1 1
+1
+2
+15 6
+abcabc
+bcabca
+1 2
+1
+34 src/main/codechef/lunchtime/july14
+16 -Xmx256m -Xss64m
+4 Main
+45 main.codechef.lunchtime.july14.ShiftTheString
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.07.28
+8 codechef
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

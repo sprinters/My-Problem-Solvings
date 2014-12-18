@@ -1,0 +1,41 @@
+14 RepeatedString
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+13 3 5
+aabcbcbca
+3 2 4
+1
+1
+24 3 5
+baaaababababbababbab
+3 6 3
+1
+2
+8 1 4
+abcd
+3 1 4
+1
+3
+7 3 4
+abc
+3 1 3
+1
+26 src/main/codechef/practice
+16 -Xmx256m -Xss64m
+4 Main
+37 main.codechef.practice.RepeatedString
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.10.13
+4 spoj
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

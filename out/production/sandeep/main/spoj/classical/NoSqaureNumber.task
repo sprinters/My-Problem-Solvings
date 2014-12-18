@@ -1,0 +1,45 @@
+14 NoSqaureNumber
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+4
+0
+7 1
+2 3 2
+1 1
+1
+1
+7 1
+2 9 1
+1 0
+1
+2
+8 1
+2 15 1
+1 5
+1
+3
+28 3
+10 40 3
+1 100 4
+1 100000 7
+10 10
+9
+26318
+1
+23 src/main/spoj/classical
+16 -Xmx256m -Xss64m
+4 Main
+34 main.spoj.classical.NoSqaureNumber
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.02.15
+4 spoj
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

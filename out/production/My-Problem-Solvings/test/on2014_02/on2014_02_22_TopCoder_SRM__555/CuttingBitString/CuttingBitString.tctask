@@ -1,0 +1,55 @@
+16 CuttingBitString
+6 getmin
+3 int
+1
+16 java.lang.String
+1 S
+7
+0
+1
+String
+9 101101101
+int 3
+1
+1
+1
+String
+7 1111101
+int 1
+1
+2
+1
+String
+5 00000
+int -1
+1
+3
+1
+String
+9 110011011
+int 3
+1
+4
+1
+String
+10 1000101011
+int -1
+1
+5
+1
+String
+27 111011100110101100101110111
+int 5
+1
+6
+1
+String
+46 1011111110111111011111101111111111101111110111
+int 14
+1
+10 2014.02.22
+17 TopCoder SRM #555
+0
+79 test.on2014_02.on2014_02_22_TopCoder_SRM__555.CuttingBitString.CuttingBitString
+0
+3 64M

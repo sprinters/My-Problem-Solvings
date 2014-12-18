@@ -1,0 +1,26 @@
+12 SwappingGame
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+13 3
+hrrkhceaate
+11 hackerearth
+1
+27 src/main/hackerearth/procto
+16 -Xmx256m -Xss64m
+4 Main
+36 main.hackerearth.procto.SwappingGame
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.06
+8 codechef
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

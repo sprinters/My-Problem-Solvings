@@ -1,0 +1,31 @@
+11 GravityFlip
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+9 4
+3 2 1 2
+8 1 2 2 3 
+1
+1
+7 3
+2 3 8
+6 2 3 8 
+1
+40 src/main/codeforces/contest/DIV2/Div_238
+16 -Xmx256m -Xss64m
+4 Main
+48 main.codeforces.contest.DIV2.Div_238.GravityFlip
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.03.22
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

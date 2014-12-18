@@ -1,0 +1,27 @@
+13 CoinSumWithDp
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+9 3
+1 2 3
+4
+1 4
+1
+16 src/main/spoj/dp
+16 -Xmx256m -Xss64m
+4 Main
+56 test.on2014_11.on2014_11_29_.CoinSumWithDp.CoinSumWithDp
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.11.29
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

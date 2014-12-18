@@ -1,0 +1,25 @@
+16 SamAndSubStrings
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+2 16
+2 23
+1
+54 src/main/hackerrank/special/weekly/year_2014/may/third
+16 -Xmx256m -Xss64m
+4 Main
+67 main.hackerrank.special.weekly.year_2014.may.third.SamAndSubStrings
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.20
+10 hackerrank
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

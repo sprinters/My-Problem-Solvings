@@ -1,0 +1,27 @@
+14 SearchForRange
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+7 2
+2 2
+2
+0 
+1
+17 src/main/leetcode
+16 -Xmx256m -Xss64m
+4 Main
+28 main.leetcode.SearchForRange
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.05
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

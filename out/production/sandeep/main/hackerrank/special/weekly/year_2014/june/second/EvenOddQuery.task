@@ -1,0 +1,30 @@
+12 EvenOddQuery
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+17 3
+3 2 7
+2
+1 2
+2 3
+8 Odd
+Even
+1
+56 src/main/hackerrank/special/weekly/year_2014/june/second
+16 -Xmx256m -Xss64m
+4 Main
+65 main.hackerrank.special.weekly.year_2014.june.second.EvenOddQuery
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.06.17
+10 hackerrank
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

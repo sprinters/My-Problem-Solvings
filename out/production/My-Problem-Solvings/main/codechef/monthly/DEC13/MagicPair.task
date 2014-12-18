@@ -1,0 +1,21 @@
+9 MagicPair
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+31 src/main/codechef/monthly/DEC13
+16 -Xmx256m -Xss64m
+4 Main
+37 main.codechef.monthly.DEC13.MagicPair
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.09
+0 
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

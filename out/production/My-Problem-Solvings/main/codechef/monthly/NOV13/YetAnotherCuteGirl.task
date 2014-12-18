@@ -1,0 +1,54 @@
+18 YetAnotherCuteGirl
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+170 15
+3 10
+15 25
+2 2
+25 25
+25 26
+100 200
+200 500
+1 1000
+10000 20000
+9999 10001
+1000000 2000000
+99000000 100000000
+3000000 4000000
+999000000 1000000000
+9999000000 10000000000
+56 5
+5
+1
+1
+1
+23
+51
+184
+1044
+0
+70492
+54334
+66365
+47958
+43453
+1
+31 src/main/codechef/monthly/NOV13
+16 -Xmx256m -Xss64m
+4 Main
+46 main.codechef.monthly.NOV13.YetAnotherCuteGirl
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.11.08
+0 
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

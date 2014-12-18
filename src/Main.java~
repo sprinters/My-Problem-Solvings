@@ -1,0 +1,319 @@
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.util.Arrays;
+import java.io.BufferedWriter;
+import java.util.InputMismatchException;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.io.Writer;
+import java.math.BigInteger;
+import java.io.InputStream;
+
+/**
+ * Built using CHelper plug-in
+ * Actual solution is at the top
+ * @author sandeepandey
+ */
+public class Main {
+	public static void main(String[] args) {
+		InputStream inputStream = System.in;
+		OutputStream outputStream = System.out;
+		InputReader in = new InputReader(inputStream);
+		OutputWriter out = new OutputWriter(outputStream);
+		ExtendToPalindrome solver = new ExtendToPalindrome();
+		int testCount = Integer.parseInt(in.next());
+		for (int i = 1; i <= testCount; i++)
+			solver.solve(i, in, out);
+		out.close();
+	}
+}
+
+class ExtendToPalindrome {
+    public void solve(int testNumber, InputReader in, OutputWriter out) {
+
+        String input    =   in.readString();
+        int lenCount    =   input.length();
+
+        StringHash hashRef  =   new ConcreteHasher(input,false);
+        int longestSuffix   =   0;
+        for(int i   =   0;i < lenCount ; i++) {
+
+            long fHash   =   hashRef.hash(i,lenCount-1);
+            long rHash   =   hashRef.reverseHash(lenCount-1,i);
+
+            if(fHash    ==  rHash) {
+                longestSuffix   =   i;
+                break;
+            }
+        }
+        //out.printLine("Longest Suffix::"+longestSuffix);
+        String outputString =   input + StringUtils.reverse(input.substring(0,longestSuffix));
+        out.printLine(outputString);
+    }
+}
+
+class InputReader {
+
+    private InputStream stream;
+
+    private byte[] buf = new byte[1024];
+
+    private int curChar;
+
+    private int numChars;
+
+    private SpaceCharFilter filter;
+    public InputReader(InputStream stream) {
+
+        this.stream = stream;
+
+    }
+
+
+
+    public int read() {
+
+        if (numChars == -1)
+
+            throw new InputMismatchException();
+
+        if (curChar >= numChars) {
+
+            curChar = 0;
+
+            try {
+
+                numChars = stream.read(buf);
+
+            } catch (IOException e) {
+
+                throw new InputMismatchException();
+
+            }
+
+            if (numChars <= 0)
+
+                return -1;
+
+        }
+
+        return buf[curChar++];
+
+    }
+
+
+
+    public String readString() {
+
+        int c = read();
+
+        while (isSpaceChar(c))
+
+            c = read();
+
+        StringBuffer res = new StringBuffer();
+
+        do {
+
+            res.appendCodePoint(c);
+
+            c = read();
+
+        } while (!isSpaceChar(c));
+
+        return res.toString();
+
+    }
+
+
+
+    public boolean isSpaceChar(int c) {
+
+        if (filter != null)
+
+            return filter.isSpaceChar(c);
+
+        return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+
+    }
+
+
+
+    public String next() {
+
+        return readString();
+
+    }
+
+
+
+    public interface SpaceCharFilter {
+
+        public boolean isSpaceChar(int ch);
+
+    }
+
+}
+
+class OutputWriter {
+
+    private final PrintWriter writer;
+    public OutputWriter(OutputStream outputStream) {
+
+        writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(outputStream)));
+
+    }
+
+
+
+    public OutputWriter(Writer writer) {
+        this.writer = new PrintWriter(writer);
+    }
+
+
+
+    public void print(Object...objects) {
+
+        for (int i = 0; i < objects.length; i++) {
+
+            if (i != 0)
+
+                writer.print(' ');
+
+            writer.print(objects[i]);
+
+        }
+
+    }
+
+
+
+    public void printLine(Object...objects) {
+
+        print(objects);
+
+        writer.println();
+
+    }
+
+
+
+    public void close() {
+
+        writer.close();
+
+    }
+
+
+
+    }
+
+interface  StringHash {
+    /**
+     * This interface is the base interface of all the actvities involve in String matching via roll hashing
+     * programmer are advise to use this interface as the base interface of all other concrete subclasses.
+     */
+    public long hash(int from,int to);
+    public long reverseHash(int from ,int to);
+    }
+
+class ConcreteHasher extends SimpleStringHash {
+
+    public ConcreteHasher(String input,boolean isReverseRequired) {
+       super(input,isReverseRequired);
+    }
+    public long hashFunction(long previousHash, char currentChar, int subtractor, long multiplier) {
+        return (previousHash * multiplier + currentChar-subtractor);
+    }
+
+}
+
+class StringUtils {
+
+    public static String reverse(String sample) {
+        StringBuilder result = new StringBuilder(sample);
+        result.reverse();
+        return result.toString();
+
+    }
+
+}
+
+abstract class SimpleStringHash extends AbstractStringHash {
+
+    private long[] hashArray =   null;
+    private  long[] baseArray =   null;
+    private  long[] reverseHashArray  =   null;
+    private  int length;
+    public SimpleStringHash(CharSequence input,boolean isReverseRequired) {
+        super();
+        length                  =   input.length();
+        hashArray                   =   new long[length + 1];
+
+        baseArray                   =   new long[length + 1];
+        long tmpHash                =   0;
+        long tmpMul                 =   1;
+
+        for(int i   =   0; i < length ; i++) {
+            baseArray[i]            =   tmpMul;
+            tmpMul                  =   tmpMul * DEFAULT_MAULTIPLIER;
+        }
+
+        for(int i   =   0; i < length ; i++) {
+            tmpHash                 =   hashFunction(tmpHash,input.charAt(i),48,DEFAULT_MAULTIPLIER);
+            hashArray[i]            =   tmpHash;
+        }
+        if(isReverseRequired) {
+            reverseHashArray            =   new long[length + 1];
+
+            tmpHash =   0;
+            for(int i   =   length-1 ; i >=0 ; i--) {
+                tmpHash     =   hashFunction(tmpHash,input.charAt(i),48,DEFAULT_MAULTIPLIER);
+                reverseHashArray[i]    =   tmpHash;
+            }
+        }
+
+    }
+
+    public abstract long hashFunction(long previousHash,char currentChar,int subtractor, long multiplier);
+
+    public long hash(int from, int to) {
+
+        int windowSize              =   to-from + 1;
+      //  System.out.println("window Size::"+windowSize);
+        if(from < 0 || to < 0) {
+            return 0;
+        }
+
+        long collectedHash  = (hashArray[to]-((from <=0) ? 0 : hashArray[from-1] * baseArray[windowSize]));
+        //System.out.println("Collected Hash::"+collectedHash);
+        return collectedHash;
+    }
+
+
+    public long reverseHash(int from, int to) {
+
+        int windowSize              =   from-to + 1;
+        if(windowSize <= 0) {
+            return 0;
+        }
+        long hashToReturn   =   reverseHashArray[to]- ((from == length-1) ? 0 : reverseHashArray[from+1] * baseArray[windowSize]);
+        return hashToReturn;
+    }
+
+    }
+
+abstract class AbstractStringHash implements StringHash {
+
+    protected final long DEFAULT_MAULTIPLIER ;
+    public AbstractStringHash() {
+//        Random randomBehaviour  =   new Random(547315431513L + System.currentTimeMillis()) ;
+//        int randomNumber        =   randomBehaviour.nextInt(Integer.MAX_VALUE);
+//        randomNumber            =   IntegerUtils.nextPrime(randomNumber);
+//
+        DEFAULT_MAULTIPLIER     =   31;
+    }
+
+
+    }
+

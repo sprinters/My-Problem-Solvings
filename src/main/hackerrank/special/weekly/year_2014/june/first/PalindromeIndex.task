@@ -1,0 +1,30 @@
+15 PalindromeIndex
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+14 3
+aaab
+baa
+aaa
+5 3
+0
+0
+1
+55 src/main/hackerrank/special/weekly/year_2014/june/first
+16 -Xmx256m -Xss64m
+4 Main
+67 main.hackerrank.special.weekly.year_2014.june.first.PalindromeIndex
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.06.03
+10 hackerrank
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

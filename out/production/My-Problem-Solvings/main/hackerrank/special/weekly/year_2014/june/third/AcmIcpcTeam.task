@@ -1,0 +1,30 @@
+11 AcmIcpcTeam
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+27 4 5
+10101
+11100
+11010
+00101
+3 5
+2
+1
+55 src/main/hackerrank/special/weekly/year_2014/june/third
+16 -Xmx256m -Xss64m
+4 Main
+63 main.hackerrank.special.weekly.year_2014.june.third.AcmIcpcTeam
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.07.01
+10 hackerrank
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

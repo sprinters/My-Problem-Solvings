@@ -1,0 +1,45 @@
+11 ChefJumping
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+6
+0
+1 0
+3 yes
+1
+1
+1 1
+3 yes
+1
+2
+1 2
+2 no
+1
+3
+1 3
+3 yes
+1
+4
+1 6
+3 yes
+1
+5
+2 10
+2 no
+1
+31 src/main/codechef/monthly/MAY14
+16 -Xmx256m -Xss64m
+4 Main
+39 main.codechef.monthly.MAY14.ChefJumping
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.02
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

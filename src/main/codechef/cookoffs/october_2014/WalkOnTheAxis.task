@@ -1,0 +1,31 @@
+13 WalkOnTheAxis
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+13 6
+1
+2
+3
+4
+5
+6
+-1
+1
+39 src/main/codechef/cookoffs/october_2014
+16 -Xmx256m -Xss64m
+4 Main
+49 main.codechef.cookoffs.october_2014.WalkOnTheAxis
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.10.19
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

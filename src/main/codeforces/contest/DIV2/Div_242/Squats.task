@@ -1,0 +1,39 @@
+6 Squats
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+6 4
+xxXx
+6 1
+XxXx
+1
+1
+4 2
+XX
+4 1
+xX
+1
+2
+8 6
+xXXxXx
+8 0
+xXXxXx
+1
+40 src/main/codeforces/contest/DIV2/Div_242
+16 -Xmx256m -Xss64m
+4 Main
+43 main.codeforces.contest.DIV2.Div_242.Squats
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.25
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

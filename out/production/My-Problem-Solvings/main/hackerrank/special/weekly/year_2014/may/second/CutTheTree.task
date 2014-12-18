@@ -1,0 +1,31 @@
+10 CutTheTree
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+45 6
+100 200 100 500 100 600
+1 2
+2 3
+2 5
+4 5
+5 6
+3 400
+1
+33 src/main/hackerrank/special/daily
+16 -Xmx256m -Xss64m
+4 Main
+40 main.hackerrank.special.daily.CutTheTree
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.07
+10 hackerrank
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

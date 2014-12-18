@@ -1,0 +1,32 @@
+15 ManasaAndStones
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+17 2
+3 
+1
+2
+4
+10
+100
+22 2 3 4 
+30 120 210 300 
+1
+33 src/main/hackerrank/special/daily
+16 -Xmx256m -Xss64m
+4 Main
+45 main.hackerrank.special.daily.ManasaAndStones
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.06
+10 hackerrank
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

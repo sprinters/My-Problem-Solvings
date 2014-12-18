@@ -1,0 +1,26 @@
+5 TaskD
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+11 9
+010111110
+6 2.7321
+1
+20 src/main/hackerearth
+16 -Xmx256m -Xss64m
+4 Main
+22 main.hackerearth.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.08.02
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

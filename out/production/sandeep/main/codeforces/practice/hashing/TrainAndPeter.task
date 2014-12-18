@@ -1,0 +1,54 @@
+13 TrainAndPeter
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+5
+0
+8 atob
+a
+b
+7 forward
+1
+1
+14 aaacaaa
+aca
+aa
+4 both
+1
+2
+10 aaa
+aa
+aa
+
+7 fantasy
+1
+3
+26 astalavista
+astla
+lavista
+
+7 fantasy
+1
+4
+7 ab
+b
+a
+
+8 backward
+1
+36 src/main/codeforces/practice/hashing
+16 -Xmx256m -Xss64m
+4 Main
+46 main.codeforces.practice.hashing.TrainAndPeter
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.05
+10 codeforces
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

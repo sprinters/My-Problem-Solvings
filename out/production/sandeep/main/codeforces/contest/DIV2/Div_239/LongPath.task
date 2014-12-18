@@ -1,0 +1,36 @@
+8 LongPath
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+9 4
+1 1 2 3
+2 20
+1
+1
+5 2
+1 2
+1 4
+1
+2
+11 5
+1 1 1 1 1
+2 62
+1
+40 src/main/codeforces/contest/DIV2/Div_239
+16 -Xmx256m -Xss64m
+4 Main
+45 main.codeforces.contest.DIV2.Div_239.LongPath
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.10
+10 codeforces
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

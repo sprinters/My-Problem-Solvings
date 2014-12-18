@@ -1,0 +1,36 @@
+16 SweetAndSourRock
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+9 1
+5
+10011
+1 5
+1
+1
+40 2
+15
+100110001010001
+16
+0010111101100000
+4 9
+13
+1
+23 src/main/spoj/classical
+16 -Xmx256m -Xss64m
+4 Main
+36 main.spoj.classical.SweetAndSourRock
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.07
+4 spoj
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

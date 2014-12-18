@@ -1,0 +1,36 @@
+8 RKString
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+3
+0
+8 1 1
+RKRK
+3 6 6
+1
+1
+9 2 1
+KRKRK
+3 4 8
+1
+2
+6 2 2
+RR
+3 1 0
+1
+29 src/main/hackerearth/mobile91
+16 -Xmx256m -Xss64m
+4 Main
+46 test.on2014_11.on2014_11_08_.RKString.RKString
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.11.08
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

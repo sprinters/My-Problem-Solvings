@@ -1,0 +1,62 @@
+8 StrIIRec
+8 recovstr
+16 java.lang.String
+3
+3 int
+1 n
+3 int
+6 minInv
+16 java.lang.String
+6 minStr
+5
+0
+3
+int 2
+int 1
+String
+2 ab
+String
+2 ba
+1
+1
+3
+int 9
+int 1
+String
+7 efcdgab
+String
+9 efcdgabhi
+1
+2
+3
+int 11
+int 55
+String
+9 debgikjfc
+String
+11 kjihgfedcba
+1
+3
+3
+int 15
+int 0
+String
+1 e
+String
+15 eabcdfghijklmno
+1
+4
+3
+int 9
+int 20
+String
+8 fcdebiha
+String
+9 fcdehigba
+1
+10 2014.02.24
+17 TopCoder SRM #545
+0
+63 test.on2014_02.on2014_02_24_TopCoder_SRM__545.StrIIRec.StrIIRec
+0
+3 64M

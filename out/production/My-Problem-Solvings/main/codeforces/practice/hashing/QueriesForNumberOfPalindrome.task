@@ -1,0 +1,36 @@
+28 QueriesForNumberOfPalindrome
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+28 caaaba
+5
+1 1
+1 4
+2 3
+4 6
+4 5
+10 
+1
+7
+3
+4
+2
+1
+36 src/main/codeforces/practice/hashing
+16 -Xmx256m -Xss64m
+4 Main
+61 main.codeforces.practice.hashing.QueriesForNumberOfPalindrome
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.12.01
+10 codeforces
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

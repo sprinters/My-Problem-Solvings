@@ -1,0 +1,28 @@
+23 OldKeypadInAForeignLand
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+15 4
+7 3 4 1
+2
+2 2
+2 19
+1
+32 src/main/hackerearth/commonfloor
+16 -Xmx256m -Xss64m
+4 Main
+52 main.hackerearth.commonfloor.OldKeypadInAForeignLand
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.02.09
+8 codechef
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

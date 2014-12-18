@@ -1,0 +1,34 @@
+18 ExtendToPalindrome
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+36 5
+aaaa
+abba
+amanaplanacanal
+xyz
+abaa
+44 aaaa
+abba
+amanaplanacanalpanama
+xyzyx
+abaaba
+1
+23 src/main/spoj/classical
+16 -Xmx256m -Xss64m
+4 Main
+38 main.spoj.classical.ExtendToPalindrome
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.11.25
+4 spoj
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

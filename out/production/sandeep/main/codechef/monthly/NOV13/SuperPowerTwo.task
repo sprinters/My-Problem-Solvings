@@ -1,0 +1,28 @@
+13 SuperPowerTwo
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+5 2
+1
+2
+9 4
+1048576
+1
+31 src/main/codechef/monthly/NOV13
+16 -Xmx256m -Xss64m
+4 Main
+41 main.codechef.monthly.NOV13.SuperPowerTwo
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.11.10
+0 
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

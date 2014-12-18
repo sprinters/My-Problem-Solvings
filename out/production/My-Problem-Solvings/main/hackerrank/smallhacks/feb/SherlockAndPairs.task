@@ -1,0 +1,30 @@
+16 SherlockAndPairs
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+17 2
+3
+1 2 3
+3
+1 1 2
+3 0
+2
+1
+34 src/main/hackerrank/smallhacks/feb
+16 -Xmx256m -Xss64m
+4 Main
+47 main.hackerrank.smallhacks.feb.SherlockAndPairs
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.03.01
+0 
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

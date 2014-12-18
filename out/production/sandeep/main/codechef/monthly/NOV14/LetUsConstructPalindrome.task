@@ -1,0 +1,33 @@
+24 LetUsConstructPalindrome
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+21 4
+aaa
+abc
+abdbca
+abba
+15 YES
+NO
+YES
+YES
+
+1
+31 src/main/codechef/monthly/NOV14
+16 -Xmx256m -Xss64m
+4 Main
+52 main.codechef.monthly.NOV14.LetUsConstructPalindrome
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.11.09
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

@@ -1,0 +1,30 @@
+13 TheNerdFactor
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+16 3 
+2 1 
+4 2 
+6 2
+5 2
+2
+4
+1
+23 src/main/spoj/classical
+16 -Xmx256m -Xss64m
+4 Main
+33 main.spoj.classical.TheNerdFactor
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.11.24
+0 
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

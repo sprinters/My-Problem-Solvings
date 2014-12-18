@@ -1,0 +1,26 @@
+6 Battle
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+3 1
+6
+2 15
+1
+27 src/main/hackerearth/yantra
+16 -Xmx256m -Xss64m
+4 Main
+30 main.hackerearth.yantra.Battle
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.27
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

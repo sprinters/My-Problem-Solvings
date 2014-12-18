@@ -1,0 +1,36 @@
+20 LongestCommonPattern
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+47 4
+abcd
+xyz
+abcd
+bcda
+aabc
+acaa
+Codechef
+elfedcc
+7 0
+4
+3
+5
+1
+31 src/main/codechef/monthly/FEB14
+16 -Xmx256m -Xss64m
+4 Main
+48 main.codechef.monthly.FEB14.LongestCommonPattern
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.02.07
+8 codechef
+1
+25 main.utils.io.InputReader
+26 main.utils.io.OutputWriter
+0
+0

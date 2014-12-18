@@ -1,0 +1,48 @@
+13 ChefAndGround
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+55 4
+5 7
+3 3 4 2 1
+5 6
+3 3 4 2 1
+5 8
+3 3 4 2 1
+4 1
+2 2 2 1
+13 Yes
+No
+No
+Yes
+1
+1
+39 3
+4 0
+1 1 1 1
+4 0
+1 1 1 0
+5 7
+3 3 4 2 1
+10 Yes
+No
+Yes
+1
+31 src/main/codechef/monthly/OCT14
+16 -Xmx256m -Xss64m
+4 Main
+41 main.codechef.monthly.OCT14.ChefAndGround
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.10.03
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

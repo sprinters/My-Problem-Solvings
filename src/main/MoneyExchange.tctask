@@ -1,0 +1,85 @@
+13 MoneyExchange
+8 bestRate
+6 double
+3
+18 java.lang.String[]
+5 rates
+16 java.lang.String
+5 type1
+16 java.lang.String
+5 type2
+6
+0
+3
+String[] 2
+12 EUR 8 USD 10
+12 USD 10 EUR 7
+String
+3 EUR
+String
+3 USD
+double 1.25
+1
+1
+3
+String[] 1
+17 EUR 0008 USD 0010
+String
+3 USD
+String
+3 EUR
+double -1.0
+1
+2
+3
+String[] 3
+12 EUR 8 USD 10
+15 EUR 1 GOODBUY 2
+15 GOODBUY 1 USD 2
+String
+3 EUR
+String
+3 USD
+double 4.0
+1
+3
+3
+String[] 5
+7 A 1 B 2
+7 A 1 C 3
+7 B 2 D 3
+8 C 9 D 10
+7 D 7 E 2
+String
+1 A
+String
+1 E
+double 0.9523809523809523
+1
+4
+3
+String[] 0
+String
+5 TYPEA
+String
+5 TYPEB
+double -1.0
+1
+5
+3
+String[] 3
+7 A 7 A 5
+7 A 1 B 1
+7 B 2 A 2
+String
+1 A
+String
+1 A
+double 1.0
+1
+10 2014.07.04
+17 TopCoder SRM #240
+0
+18 main.MoneyExchange
+0
+3 64M

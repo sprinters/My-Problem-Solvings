@@ -1,0 +1,32 @@
+9 CavityMap
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+21 4
+1112
+1912
+1892
+1234
+19 1112
+1X12
+18X2
+1234
+1
+37 src/main/hackerrank/smallhacks/july14
+16 -Xmx256m -Xss64m
+4 Main
+43 main.hackerrank.smallhacks.july14.CavityMap
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.07.26
+10 hackerrank
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0
