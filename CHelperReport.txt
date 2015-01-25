@@ -1,2 +1,2 @@
-41 src/main/spoj/dp/LisWithIntervalTree.task
+45 src/main/spoj/segmenttree/MaximumSum3693.task
 0

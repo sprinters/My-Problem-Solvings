@@ -5,10 +5,10 @@
     <ignored path="My-Problem-Solvings.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hello.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382212086440" ignored="false" />
-    <file path="/fragment.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1418051304350" ignored="false" />
+    <file path="/fragment.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421863249943" ignored="false" />
     <file path="/PalindromePartitionSolver.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382278180865" ignored="false" />
     <file path="/AbstractPalindromeParitionSolver.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382278518236" ignored="false" />
-    <file path="/SolveByDp.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382280316933" ignored="false" />
+    <file path="/SolveByDp.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419178046832" ignored="false" />
     <file path="/PartitionHelper.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382290297590" ignored="false" />
     <file path="/InputReader.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382345175477" ignored="false" />
     <file path="/DpTester.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382290436957" ignored="false" />
@@ -77,7 +77,7 @@
     <file path="/TheNerdFactor.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385233253382" ignored="false" />
     <file path="/StringUtils.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1415532047396" ignored="false" />
     <file path="/IOPalin2000.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385284342179" ignored="false" />
-    <file path="/Aibohphobia.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385281272490" ignored="false" />
+    <file path="/Aibohphobia.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419186353678" ignored="false" />
     <file path="/Palindromes.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1386181442729" ignored="false" />
     <file path="/ForwardHash.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385313509511" ignored="false" />
     <file path="/ReverseHash.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385313583767" ignored="false" />
@@ -122,7 +122,7 @@
     <file path="/SquareBrackets.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1388586470590" ignored="false" />
     <file path="/AllInterpretationOfDigits.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1388944750049" ignored="false" />
     <file path="/LetterCombinationsOfAPhoneNumber.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1388975334403" ignored="false" />
-    <file path="/TreeNode.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1388977057194" ignored="false" />
+    <file path="/TreeNode.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419866816087" ignored="false" />
     <file path="/SumRootToLeafNumbers.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389525027338" ignored="false" />
     <file path="/Sorter.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389506154032" ignored="false" />
     <file path="/AbstractSorter.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389752747670" ignored="false" />
@@ -131,7 +131,7 @@
     <file path="/MyComparable.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389505205592" ignored="false" />
     <file path="/InsertionSorter.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389750934525" ignored="false" />
     <file path="/MyString.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389512999919" ignored="false" />
-    <file path="/a.dummy" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417613264293" ignored="false" />
+    <file path="/a.dummy" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421255282307" ignored="false" />
     <file path="/SumRootToLeafNumber.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389778113073" ignored="false" />
     <file path="/MergeSorted.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1390016053544" ignored="false" />
     <file path="/SelectionSorter.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1389752601041" ignored="false" />
@@ -162,7 +162,7 @@
     <file path="/FlattenBinaryTreeToLinklist.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1391260440780" ignored="false" />
     <file path="/SymmtricTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1391262296063" ignored="false" />
     <file path="/RecoverBST.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1391322524323" ignored="false" />
-    <file path="/TwoSum.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1391339281242" ignored="false" />
+    <file path="/TwoSum.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419189861476" ignored="false" />
     <file path="/MergeSortedArray.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1394080145854" ignored="false" />
     <file path="/LRUCache.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1391774446777" ignored="false" />
     <file path="/LongestCommonPattern.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1391775948550" ignored="false" />
@@ -309,7 +309,7 @@
     <file path="/Battle.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1398598795460" ignored="false" />
     <file path="/SerejaAndMugs.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1398613445941" ignored="false" />
     <file path="/SerejaAndMirroring.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1398627970623" ignored="false" />
-    <file path="/Dummy.txt" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1418905708732" ignored="false" />
+    <file path="/Dummy.txt" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422190947429" ignored="false" />
     <file path="/ChefJumping.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1399024960734" ignored="false" />
     <file path="/CompilerAndParser.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1400236966472" ignored="false" />
     <file path="/Stone.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1399036069443" ignored="false" />
@@ -381,19 +381,19 @@
     <file path="/XorGame.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406454001318" ignored="false" />
     <file path="/SwapIt.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406495159627" ignored="false" />
     <file path="/ShiftTheString.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406645695335" ignored="false" />
-    <file path="/TaskA.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1413042037512" ignored="false" />
-    <file path="/TaskB.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1407231289700" ignored="false" />
+    <file path="/TaskA.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1420478275451" ignored="false" />
+    <file path="/TaskB.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1420144219180" ignored="false" />
     <file path="/SubsetXOR.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406968640619" ignored="false" />
     <file path="/WillRickSurviveOrNot.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406970256264" ignored="false" />
-    <file path="/TaskC.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406972542011" ignored="false" />
-    <file path="/TaskD.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406974805029" ignored="false" />
+    <file path="/TaskC.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419749968171" ignored="false" />
+    <file path="/TaskD.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1420477149634" ignored="false" />
     <file path="/ChefAndGift.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1406987867352" ignored="false" />
     <file path="/ChefAndEasyProblem.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1411883589047" ignored="false" />
     <file path="/ChefAndEasyProblem2.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1411888832750" ignored="false" />
     <file path="/AToB.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1411920750001" ignored="false" />
     <file path="/MultipicationBasedIntervalTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1411920439168" ignored="false" />
     <file path="/AbstractSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417167309842" ignored="false" />
-    <file path="/SimpleSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417167310832" ignored="false" />
+    <file path="/SimpleSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419177477585" ignored="false" />
     <file path="/ChefAndGround.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1412348093245" ignored="false" />
     <file path="/DevuLandAndDinosaursAndLaddus.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1412451301127" ignored="false" />
     <file path="/RemyPaintsTheFence.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1413220352493" ignored="false" />
@@ -410,9 +410,9 @@
     <file path="/MakingChangeWithMinCoins.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1416452391839" ignored="false" />
     <file path="/LongestIncreasingSubsequenceWithDp.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1416683648940" ignored="false" />
     <file path="/LisWithIntervalTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417161872250" ignored="false" />
-    <file path="/ArrayBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417157643599" ignored="false" />
+    <file path="/ArrayBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421158375715" ignored="false" />
     <file path="/IndexBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1416935724497" ignored="false" />
-    <file path="/SimpleLongArrayBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417157898442" ignored="false" />
+    <file path="/SimpleLongArrayBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421157308649" ignored="false" />
     <file path="/AdpaterBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417159790238" ignored="false" />
     <file path="/SubArray.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417168224527" ignored="false" />
     <file path="/CoinSumWithDp.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417541077741" ignored="false" />
@@ -423,6 +423,26 @@
     <file path="/SamAndSubstrings.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1417931531033" ignored="false" />
     <file path="/LegoBlocks.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1418150744850" ignored="false" />
     <file path="/Anagram.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1418051386572" ignored="false" />
+    <file path="/AddTwoNumber.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419343184396" ignored="false" />
+    <file path="/ReverseInteger.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419345352039" ignored="false" />
+    <file path="/ReverseBits.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419481557073" ignored="false" />
+    <file path="/ReverseLinkedList.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419567921671" ignored="false" />
+    <file path="$USER_HOME$/.IntelliJIdea12/config/plugins/chelper/lib/chelper.jar!/net/egork/chelper/ui/ParseDialog.class" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419746223442" ignored="false" />
+    <file path="/QuadrantQueries.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421817121091" ignored="false" />
+    <file path="/LazyBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421258247393" ignored="false" />
+    <file path="/SegmentTreeHelper.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1420964270866" ignored="false" />
+    <file path="/SimpleIntArrayBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421157271617" ignored="false" />
+    <file path="/HorribleQueries8002.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421258270629" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/api/my/utils/mis/misutils/MiscUtils.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421255132069" ignored="false" />
+    <file path="/LightSwitching7259.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421343499012" ignored="false" />
+    <file path="/Task6.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421519688453" ignored="false" />
+    <file path="/Task7.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421521015574" ignored="false" />
+    <file path="/Task2.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421522597639" ignored="false" />
+    <file path="/AdvancedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421564409397" ignored="false" />
+    <file path="/LazyBasedAdvancedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421813231421" ignored="false" />
+    <file path="/Bracket61.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421862362956" ignored="false" />
+    <file path="/LazyBasedAdvancedArrayBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421562390386" ignored="false" />
+    <file path="/MaximumSum3693.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421868495280" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -492,7 +512,53 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/spoj/segmenttree/HorribleQueries8002.java" line="91" class="main.spoj.segmenttree.HorribleQueries8002" package="main.spoj.segmenttree">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/spoj/segmenttree/Bracket61.java" line="89" class="main.spoj.segmenttree.Bracket61" package="main.spoj.segmenttree">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/spoj/segmenttree/Bracket61.java" line="98" class="main.spoj.segmenttree.Bracket61" package="main.spoj.segmenttree">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -507,19 +573,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SuperPowerTwo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/codechef/monthly/NOV13/SuperPowerTwo.java">
+      <file leaf-file-name="SearchInsertPosition.task" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.task">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="45" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardCosts.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/CardCosts.java">
+      <file leaf-file-name="SameTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SameTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchForRange.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchForRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="30" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchInsertPosition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="26" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchInSortedArray.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="61" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubsequenceWeighting.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/dp/SubsequenceWeighting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="23" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumericalPerfectionLevel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/NumericalPerfectionLevel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
               <folding />
@@ -527,8 +645,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElephantDrinkingEasy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ElephantDrinkingEasy.java">
+      <file leaf-file-name="Regions.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Regions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
               <folding />
@@ -536,28 +654,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BombSweeper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/BombSweeper.java">
+      <file leaf-file-name="SumOfPower.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/SumOfPower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BadSubstring.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/BadSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.10069445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FixedDiceGameDiv2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/FixedDiceGameDiv2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="14" column="44" selection-start="339" selection-end="339" vertical-scroll-proportion="0.3505843">
               <folding />
             </state>
           </provider>
@@ -586,23 +686,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/hackerearth/indiagacks/OnceUponATimeInTimeLand.java" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/ConstructBinaryTreeFromInorderAndPostorder.java" />
-        <option value="$PROJECT_DIR$/src/main/spoj/classical/Palindromes.java" />
-        <option value="$PROJECT_DIR$/src/main/spoj/fresh/ARRAYSUB.java" />
-        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/ARRAYSUB.java" />
-        <option value="$PROJECT_DIR$/src/main/api/my/compress/CompressHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/InversionCount6256.java" />
-        <option value="$PROJECT_DIR$/src/main/spoj/dp/CoinSumWithDp.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerrank/practice/dp/Equal.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerrank/practice/dp/StockMaximize.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerrank/practice/dp/Canadies.java" />
-        <option value="$PROJECT_DIR$/src/main/api/my/utils/array/ArrayUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerrank/practice/dp/SamAndSubstrings.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerrank/practice/Anagram.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerrank/practice/dp/LegoBlocks.java" />
-        <option value="$PROJECT_DIR$/src/main/codechef/monthly/NOV13/SuperPowerTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/utils/collections/CollectionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/utils/mis/misutils/MiscUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/ArrayBasedLazySegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/LazyBasedSegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/HorribleQueries8002.java" />
+        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/LightSwitching7259.java" />
+        <option value="$PROJECT_DIR$/src/main/hackerearth/openfuture/Task6.java" />
+        <option value="$PROJECT_DIR$/src/main/hackerearth/openfuture/Task7.java" />
+        <option value="$PROJECT_DIR$/src/main/hackerearth/openfuture/Task2.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/advanced/LazyBasedAdvancedArrayBasedSegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/api/AdvancedSegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/main/hackerrank/practice/datastructure/QuadrantQueries.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/advanced/LazyBasedAdvancedSegmentTree.java" />
+        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/Bracket61.java" />
+        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/MaximumSum3693.java" />
+        <option value="$PROJECT_DIR$/src/main/geeksforgeek/dp/matrixchainmultipication/MapBasedMemorization.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -645,7 +752,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -665,6 +772,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -715,13 +823,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-Problem-Solvings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-Problem-Solvings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
@@ -729,16 +858,17 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/work/Thread-practice" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -760,59 +890,71 @@
       <recent name="$PROJECT_DIR$/src/main/hackerrank/special/weekly/year_2014/may/second" />
     </key>
   </component>
-  <component name="RunManager" selected="TopCoder Task.BadSubstring">
-    <configuration default="false" name="AllNearestSmallerValues" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.api.my.utils.algorithms.mis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="main.api.my.utils.algorithms.mis.AllNearestSmallerValues" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="My-Problem-Solvings" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BitTester" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.geeksforgeek.bitmanipulaiton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="main.geeksforgeek.bitmanipulaiton.BitTester" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="My-Problem-Solvings" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BestTimeBuyAndSellStock" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="TopCoder Task.SumOfPower">
+    <configuration default="false" name="AddTwoNumber" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="main.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="main.leetcode.BestTimeBuyAndSellStock" />
+      <option name="MAIN_CLASS_NAME" value="main.leetcode.AddTwoNumber" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="My-Problem-Solvings" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverseInteger" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.leetcode.ReverseInteger" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="My-Problem-Solvings" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaskA" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.crackingcodinginterviews.bitmanipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.crackingcodinginterviews.bitmanipulation.TaskA" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -827,60 +969,48 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TaskD" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.on2014_11.on2014_11_28_.SubArray.*" />
+          <option name="PATTERN" value="main.crackingcodinginterviews.bitmanipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="My-Problem-Solvings" />
+      <option name="MAIN_CLASS_NAME" value="main.crackingcodinginterviews.bitmanipulation.TaskD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.on2014_11.on2014_11_28_.SubArray" />
-      <option name="MAIN_CLASS_NAME" value="test.on2014_11.on2014_11_28_.SubArray.Main" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <module name="My-Problem-Solvings" />
       <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Cover" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="test.on2014_11.on2014_11_28_.SubArray in My-Problem-Solvings" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="AllInterpretationOfDigits" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.on2014_11.on2014_11_28_.SubArray.*" />
+          <option name="PATTERN" value="main.geeksforgeek.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="My-Problem-Solvings" />
+      <option name="MAIN_CLASS_NAME" value="main.geeksforgeek.dp.AllInterpretationOfDigits" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test.on2014_11.on2014_11_28_.SubArray" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+      <module name="My-Problem-Solvings" />
       <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Cover" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -899,19 +1029,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -940,6 +1057,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1728,7 +1858,13 @@
     </configuration>
     <configuration default="false" name="Canady" type="Task" factoryName="Task">
       <taskConf>src/main/leetcode/Canady.task</taskConf>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -2332,12 +2468,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TaskB" type="Task" factoryName="Task">
-      <taskConf>src/main/codeforces/contest/DIV2/Div_259/TaskB.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="SubsetXOR" type="Task" factoryName="Task">
       <taskConf>src/main/hackerearth/SubsetXOR.task</taskConf>
       <RunnerSettings RunnerId="Run" />
@@ -2404,12 +2534,6 @@
     </configuration>
     <configuration default="false" name="RemyPaintsTheFence" type="Task" factoryName="Task">
       <taskConf>src/main/codechef/monthly/OCT14/RemyPaintsTheFence.task</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TaskA" type="Task" factoryName="Task">
-      <taskConf>src/main/hackerearth/superprofs/TaskA.task</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -2574,7 +2698,83 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="269">
+    <configuration default="false" name="TaskB" type="Task" factoryName="Task">
+      <taskConf />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaskA" type="Task" factoryName="Task">
+      <taskConf>src/main/crackingcodinginterviews/sorting/TaskA.task</taskConf>
+      <method />
+    </configuration>
+    <configuration default="false" name="QuadrantQueries" type="Task" factoryName="Task">
+      <taskConf>src/main/hackerrank/practice/datastructure/QuadrantQueries.task</taskConf>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Circle1" type="Task" factoryName="Task">
+      <taskConf>src/main/hackerearth/pledge2015/easy/Circle1.task</taskConf>
+      <method />
+    </configuration>
+    <configuration default="false" name="HorribleQueries8002" type="Task" factoryName="Task">
+      <taskConf>src/main/spoj/segmenttree/HorribleQueries8002.task</taskConf>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LightSwitching7259" type="Task" factoryName="Task">
+      <taskConf>src/main/spoj/segmenttree/LightSwitching7259.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Bracket61" type="Task" factoryName="Task">
+      <taskConf>src/main/spoj/segmenttree/Bracket61.task</taskConf>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Task6" type="Task" factoryName="Task">
+      <taskConf>src/main/hackerearth/openfuture/Task6.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Task7" type="Task" factoryName="Task">
+      <taskConf>src/main/hackerearth/openfuture/Task7.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Task2" type="Task" factoryName="Task">
+      <taskConf>src/main/hackerearth/openfuture/Task2.task</taskConf>
+      <method />
+    </configuration>
+    <configuration default="false" name="MaximumSum3693" type="Task" factoryName="Task">
+      <taskConf>src/main/spoj/segmenttree/MaximumSum3693.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="278">
       <item index="0" class="java.lang.String" itemvalue="Task.VSequence" />
       <item index="1" class="java.lang.String" itemvalue="Task.UncleJohny" />
       <item index="2" class="java.lang.String" itemvalue="Task.MissingChairs" />
@@ -2802,56 +3002,65 @@
       <item index="224" class="java.lang.String" itemvalue="Task.SwapIt" />
       <item index="225" class="java.lang.String" itemvalue="Task.AndOperation" />
       <item index="226" class="java.lang.String" itemvalue="Task.ShiftTheString" />
-      <item index="227" class="java.lang.String" itemvalue="Task.TaskB" />
-      <item index="228" class="java.lang.String" itemvalue="Task.SubsetXOR" />
-      <item index="229" class="java.lang.String" itemvalue="Task.WillRickSurviveOrNot" />
-      <item index="230" class="java.lang.String" itemvalue="Task.TaskD" />
-      <item index="231" class="java.lang.String" itemvalue="Task.ChefAndGift" />
-      <item index="232" class="java.lang.String" itemvalue="Task.ChefAndEasyProblem" />
-      <item index="233" class="java.lang.String" itemvalue="Task.ChefAndEasyProblem2" />
-      <item index="234" class="java.lang.String" itemvalue="Task.AToB" />
-      <item index="235" class="java.lang.String" itemvalue="Task.Oct14" />
-      <item index="236" class="java.lang.String" itemvalue="Task.ChefAndGround" />
-      <item index="237" class="java.lang.String" itemvalue="Task.DevuLandAndDinosaursAndLaddus" />
-      <item index="238" class="java.lang.String" itemvalue="Task.RemyPaintsTheFence" />
-      <item index="239" class="java.lang.String" itemvalue="Task.TaskA" />
-      <item index="240" class="java.lang.String" itemvalue="Task.Blackbox2" />
-      <item index="241" class="java.lang.String" itemvalue="Task.FootballFest" />
-      <item index="242" class="java.lang.String" itemvalue="Task.ChefAndSquare" />
-      <item index="243" class="java.lang.String" itemvalue="Task.PairwiseSumAndDivide" />
-      <item index="244" class="java.lang.String" itemvalue="Task.WalkOnTheAxis" />
-      <item index="245" class="java.lang.String" itemvalue="Task.TheArmy" />
-      <item index="246" class="java.lang.String" itemvalue="Task.DistinctCharactersSubsequence" />
-      <item index="247" class="java.lang.String" itemvalue="Task.LetUsConstructPalindrome" />
-      <item index="248" class="java.lang.String" itemvalue="Task.MaximumValueContigiousSum" />
-      <item index="249" class="java.lang.String" itemvalue="Task.LongestIncreasingSubsequenceWithDp" />
-      <item index="250" class="java.lang.String" itemvalue="Task.CountingBooleanParenthesizationsWhichResultCompleteExpressionTrue" />
-      <item index="251" class="java.lang.String" itemvalue="Task.LisWithIntervalTree" />
-      <item index="252" class="java.lang.String" itemvalue="Task.SubArray" />
-      <item index="253" class="java.lang.String" itemvalue="Task.ARRAYSUB" />
-      <item index="254" class="java.lang.String" itemvalue="Task.InversionCount6256" />
-      <item index="255" class="java.lang.String" itemvalue="Task.CoinSumWithDp" />
-      <item index="256" class="java.lang.String" itemvalue="Task.RKString" />
-      <item index="257" class="java.lang.String" itemvalue="Task.Equal" />
-      <item index="258" class="java.lang.String" itemvalue="Task.StockMaximize" />
-      <item index="259" class="java.lang.String" itemvalue="Task.Canadies" />
-      <item index="260" class="java.lang.String" itemvalue="Task.SamAndSubstrings" />
-      <item index="261" class="java.lang.String" itemvalue="Task.CutTree" />
-      <item index="262" class="java.lang.String" itemvalue="Task.LegoBlocks" />
-      <item index="263" class="java.lang.String" itemvalue="Task.Anagram" />
-      <item index="264" class="java.lang.String" itemvalue="Application.AllNearestSmallerValues" />
-      <item index="265" class="java.lang.String" itemvalue="Application.BitTester" />
-      <item index="266" class="java.lang.String" itemvalue="Application.BestTimeBuyAndSellStock" />
-      <item index="267" class="java.lang.String" itemvalue="JUnit.Main" />
-      <item index="268" class="java.lang.String" itemvalue="JUnit.test.on2014_11.on2014_11_28_.SubArray in My-Problem-Solvings" />
+      <item index="227" class="java.lang.String" itemvalue="Task.SubsetXOR" />
+      <item index="228" class="java.lang.String" itemvalue="Task.WillRickSurviveOrNot" />
+      <item index="229" class="java.lang.String" itemvalue="Task.TaskD" />
+      <item index="230" class="java.lang.String" itemvalue="Task.ChefAndGift" />
+      <item index="231" class="java.lang.String" itemvalue="Task.ChefAndEasyProblem" />
+      <item index="232" class="java.lang.String" itemvalue="Task.ChefAndEasyProblem2" />
+      <item index="233" class="java.lang.String" itemvalue="Task.AToB" />
+      <item index="234" class="java.lang.String" itemvalue="Task.Oct14" />
+      <item index="235" class="java.lang.String" itemvalue="Task.ChefAndGround" />
+      <item index="236" class="java.lang.String" itemvalue="Task.DevuLandAndDinosaursAndLaddus" />
+      <item index="237" class="java.lang.String" itemvalue="Task.RemyPaintsTheFence" />
+      <item index="238" class="java.lang.String" itemvalue="Task.Blackbox2" />
+      <item index="239" class="java.lang.String" itemvalue="Task.FootballFest" />
+      <item index="240" class="java.lang.String" itemvalue="Task.ChefAndSquare" />
+      <item index="241" class="java.lang.String" itemvalue="Task.PairwiseSumAndDivide" />
+      <item index="242" class="java.lang.String" itemvalue="Task.WalkOnTheAxis" />
+      <item index="243" class="java.lang.String" itemvalue="Task.TheArmy" />
+      <item index="244" class="java.lang.String" itemvalue="Task.DistinctCharactersSubsequence" />
+      <item index="245" class="java.lang.String" itemvalue="Task.LetUsConstructPalindrome" />
+      <item index="246" class="java.lang.String" itemvalue="Task.MaximumValueContigiousSum" />
+      <item index="247" class="java.lang.String" itemvalue="Task.LongestIncreasingSubsequenceWithDp" />
+      <item index="248" class="java.lang.String" itemvalue="Task.CountingBooleanParenthesizationsWhichResultCompleteExpressionTrue" />
+      <item index="249" class="java.lang.String" itemvalue="Task.LisWithIntervalTree" />
+      <item index="250" class="java.lang.String" itemvalue="Task.SubArray" />
+      <item index="251" class="java.lang.String" itemvalue="Task.ARRAYSUB" />
+      <item index="252" class="java.lang.String" itemvalue="Task.InversionCount6256" />
+      <item index="253" class="java.lang.String" itemvalue="Task.CoinSumWithDp" />
+      <item index="254" class="java.lang.String" itemvalue="Task.RKString" />
+      <item index="255" class="java.lang.String" itemvalue="Task.Equal" />
+      <item index="256" class="java.lang.String" itemvalue="Task.StockMaximize" />
+      <item index="257" class="java.lang.String" itemvalue="Task.Canadies" />
+      <item index="258" class="java.lang.String" itemvalue="Task.SamAndSubstrings" />
+      <item index="259" class="java.lang.String" itemvalue="Task.CutTree" />
+      <item index="260" class="java.lang.String" itemvalue="Task.LegoBlocks" />
+      <item index="261" class="java.lang.String" itemvalue="Task.Anagram" />
+      <item index="262" class="java.lang.String" itemvalue="Task.TaskB" />
+      <item index="263" class="java.lang.String" itemvalue="Task.TaskA" />
+      <item index="264" class="java.lang.String" itemvalue="Task.QuadrantQueries" />
+      <item index="265" class="java.lang.String" itemvalue="Task.Circle1" />
+      <item index="266" class="java.lang.String" itemvalue="Task.HorribleQueries8002" />
+      <item index="267" class="java.lang.String" itemvalue="Task.LightSwitching7259" />
+      <item index="268" class="java.lang.String" itemvalue="Task.Bracket61" />
+      <item index="269" class="java.lang.String" itemvalue="Task.Task6" />
+      <item index="270" class="java.lang.String" itemvalue="Task.Task7" />
+      <item index="271" class="java.lang.String" itemvalue="Task.Task2" />
+      <item index="272" class="java.lang.String" itemvalue="Task.MaximumSum3693" />
+      <item index="273" class="java.lang.String" itemvalue="Application.AddTwoNumber" />
+      <item index="274" class="java.lang.String" itemvalue="Application.ReverseInteger" />
+      <item index="275" class="java.lang.String" itemvalue="Application.TaskA" />
+      <item index="276" class="java.lang.String" itemvalue="Application.TaskD" />
+      <item index="277" class="java.lang.String" itemvalue="Application.AllInterpretationOfDigits" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.test.on2014_11.on2014_11_28_.SubArray in My-Problem-Solvings" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BestTimeBuyAndSellStock" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BitTester" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AllInterpretationOfDigits" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TaskD" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TaskA" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReverseInteger" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AddTwoNumber" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -2909,34 +3118,35 @@
     <frame x="55" y="24" width="1311" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5392" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885376" sideWeight="0.7064516" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496063" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8336" sideWeight="0.50039524" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8646154" sideWeight="0.5003814" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32125986" sideWeight="0.4258373" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32913387" sideWeight="0.53311795" order="5" side_tool="false" content_ui="tabs" x="856" y="192" width="418" height="625" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248" sideWeight="0.49960473" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992125" sideWeight="0.84354836" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933652" sideWeight="0.6704362" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933652" sideWeight="0.6704362" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22213438" sideWeight="0.1664" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8336" sideWeight="0.49960473" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964426" sideWeight="0.165" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Roo Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29486167" sideWeight="0.2736" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7264" sideWeight="0.49885583" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="156" y="149" width="1111" height="544" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964426" sideWeight="0.165" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24901186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Roo Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330373" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31738436" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246154" sideWeight="0.49960473" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992125" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3009,127 +3219,102 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/geeksforgeek/dp/palindromepartitioning/SolveByDp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="44" column="17" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
+    <entry file="file://$PROJECT_DIR$/src/main/geeksforgeek/dp/AllInterpretationOfDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="59" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="uml://JAVA/main.BadSubstring">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>main.BadSubstring</OriginalElement>
-          <nodes>
-            <node x="" y="">main.BadSubstring</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="59.0" y="14.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/api/my/compress/CompressHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/recursion/TaskA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="32" selection-start="862" selection-end="862" vertical-scroll-proportion="0.8072917">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/api/my/compress/ArrayBasedCompressor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/recursion/TaskB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.104166664">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/recursion/TaskC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="26" selection-start="2433" selection-end="2433" vertical-scroll-proportion="0.453125">
-          <folding />
-        </state>
+        <state line="105" column="22" selection-start="3058" selection-end="3058" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/utils/io/InputReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/linkedlist/ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.13020833">
-          <folding />
-        </state>
+        <state line="16" column="13" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/spoj/dp/LisWithIntervalTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="546" selection-end="546" vertical-scroll-proportion="0.35117057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/spoj/dp/CoinSumWithDp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="37" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.9498328">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/My-Problem-Solvings.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.task">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/codechef/monthly/NOV13/SuperPowerTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SameTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="45" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/CardCosts.java">
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchForRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="30" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="26" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="61" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/dp/SubsequenceWeighting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/NumericalPerfectionLevel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/FixedDiceGameDiv2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Regions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ElephantDrinkingEasy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/SumOfPower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/BombSweeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/BadSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="54" selection-end="54" vertical-scroll-proportion="0.10069445">
+        <state line="14" column="44" selection-start="339" selection-end="339" vertical-scroll-proportion="0.3505843">
           <folding />
         </state>
       </provider>
@@ -3151,7 +3336,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (My-Problem-Solvings)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

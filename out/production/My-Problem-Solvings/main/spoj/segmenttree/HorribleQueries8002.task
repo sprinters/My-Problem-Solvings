@@ -1,0 +1,33 @@
+19 HorribleQueries8002
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+54 1
+8 6
+0 2 4 26
+0 4 8 80
+0 4 5 20
+1 8 8 
+0 5 7 14
+1 4 8
+6 80
+508
+1
+25 src/main/spoj/segmenttree
+16 -Xmx256m -Xss64m
+4 Main
+41 main.spoj.segmenttree.HorribleQueries8002
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2015.01.13
+0 
+1
+26 main.api.my.io.InputReader
+27 main.api.my.io.OutputWriter
+0
+0

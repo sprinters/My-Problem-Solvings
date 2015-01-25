@@ -1,7 +1,8 @@
 
 package main.geeksforgeek.dp.matrixchainmultipication;
 
-import java.util.Map;
+import main.api.my.pair.Pair;
+
 import java.util.HashMap;
 import java.util.Map;
 

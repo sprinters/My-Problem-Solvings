@@ -58,7 +58,7 @@ public class MiscUtils {
 
         int result  =   1;
 
-        while(result <= to) {
+        while(result < to) {
             result  =   result << 1;
         }
 

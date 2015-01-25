@@ -42,6 +42,7 @@ public abstract class SimpleSegmentTree implements SegmentTree {
 
     public void buildTree() {
 
+
         if(shouldDebug()) {
             System.out.println("Build Tree Operation have been started");
         }

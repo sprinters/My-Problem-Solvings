@@ -65,7 +65,7 @@ public class SearchInSortedArray {
         int mid =   (from + to)>> 1;
 
 
-            if(array[mid]   ==  target) {
+        if(array[mid]   ==  target) {
 
             return mid;
         }

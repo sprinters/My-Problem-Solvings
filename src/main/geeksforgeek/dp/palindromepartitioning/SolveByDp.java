@@ -5,6 +5,7 @@ public class SolveByDp extends AbstractPalindromePartitionSolver {
     @Override
     protected int getMinPalindomeCut(char[] array, int from, int to) {
 
+
         int[][] dp  =   new int[array.length + 1][array.length + 1];
         boolean[][] palindromeHelper    =   new boolean[array.length +1 ][array.length + 1];
 

@@ -10,6 +10,12 @@ import java.util.List;
 public class MyIntegerUtils {
 
 
+    public static int gcdp(int first,int second) {
+        if(second   ==  0) {
+            return first;
+        }
+        return gcdp(second,first%second);
+    }
     //-------------------------------------------------------
 
     /**

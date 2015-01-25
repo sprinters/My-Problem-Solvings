@@ -49,6 +49,8 @@ public class Aibohphobia {
             for(int k   =   0;k < N ; k++) {
                 first[k] =   second[k];
             }
+
+
         }
         out.printLine(second[0]);
 
