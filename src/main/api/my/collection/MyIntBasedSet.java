@@ -1,6 +1,7 @@
 package main.api.my.collection;
 
-public class MyIntBasedSet {
+public abstract class MyIntBasedSet extends MyIntBasedCollection {
 
 
 }
+

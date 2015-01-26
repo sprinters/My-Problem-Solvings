@@ -1,2 +1,2 @@
-45 src/main/spoj/segmenttree/MaximumSum3693.task
+43 src/main/spoj/segmenttree/OrderSet3273.task
 0

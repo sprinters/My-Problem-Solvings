@@ -17,12 +17,12 @@ public class CompressHelper {
             int index	=	(Integer) newPair.getSecond();
 
             if(value	==	previousValue) {
-                newArray[(int)index]	=	currentCompressedValue;
+                newArray[index]	=	currentCompressedValue;
 
             } else {
 
                 int newValue	=	currentCompressedValue + 1;
-                newArray[(int)index]	=	newValue;
+                newArray[index]	=	newValue;
                 previousValue	=	value;
                 currentCompressedValue++;
             }

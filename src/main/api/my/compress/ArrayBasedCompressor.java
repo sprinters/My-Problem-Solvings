@@ -13,7 +13,7 @@ public class ArrayBasedCompressor implements Compressor{
     private long[] prepossessInput(long[] array,int start,int end) {
 
         Pair[] pairArray	=	new Pair[array.length];
-        for(int index	=	0;index < array.length ; index++) {
+        for(int index	=	start;index < end ; index++) {
 
             Pair newPair	=	Pair.makePair(array[index],index);
             pairArray[index]	=	newPair;

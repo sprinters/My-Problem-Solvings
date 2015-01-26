@@ -2,14 +2,17 @@ import java.io.OutputStreamWriter;
 import java.io.BufferedWriter;
 import java.io.PrintStream;
 import java.io.OutputStream;
-import java.io.PrintWriter;
 import java.util.RandomAccess;
+import java.io.PrintWriter;
+import java.util.Random;
 import java.util.AbstractList;
 import java.io.Writer;
 import java.util.List;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.InputMismatchException;
+import java.util.ArrayList;
+import java.util.NoSuchElementException;
 import java.math.BigInteger;
 import java.io.InputStream;
 
@@ -24,117 +27,193 @@ public class Main {
 		OutputStream outputStream = System.out;
 		InputReader in = new InputReader(inputStream);
 		OutputWriter out = new OutputWriter(outputStream);
-		MaximumSum3693 solver = new MaximumSum3693();
+		OrderSet3273 solver = new OrderSet3273();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class MaximumSum3693 {
+class OrderSet3273 {
+
+    private MyIntHashMap intHashMap;
+    private int[] array ;
+    private char[] action;
+    private int[] withValue;
     public void solve(int testNumber, InputReader in, OutputWriter out) {
 
-        int elementCount = in.readInt();
-        int[] array = IOUtils.readIntArray(in,elementCount);
-        SegmentTreeValueNode[] valueNodes = new SegmentTreeValueNode[elementCount];
-        for(int i = 0 ; i < elementCount ; i++) {
-            SegmentTreeValueNode valueNode = new SegmentTreeValueNode();
-            valueNode.first = array[i];
-            valueNode.second = 0;
-            valueNodes[i] = valueNode;
+        int queryCount  =   in.readInt();
+        intHashMap      =   new MyIntHashMap();
+        array           =   new int[queryCount + 1];
+        action          =   new char[queryCount + 1];
+        withValue       =   new int[queryCount + 1];
+        for(int i   =   0;i < queryCount ; i++) {
+            action[i]   = in.readCharacter();
+            withValue[i]= in.readInt();
+            array[i]    = withValue[i];
         }
 
-        AdvancedSegmentTree<SegmentTreeValueNode,SegmentTreeValueNode> segmentTree =
-                new LazyBasedAdvancedArrayBasedSegmentTree<SegmentTreeValueNode, SegmentTreeValueNode>(valueNodes) {
+        Arrays.sort(array);
+        for(int pos = 0; pos < array.length ; pos++) {
+            intHashMap.put(array[pos],pos);
+        }
 
-            public SegmentTreeValueNode joinValue(SegmentTreeValueNode left, SegmentTreeValueNode right) {
+        array = new int[queryCount];
+        Arrays.fill(array,-1);
 
-                int[] tmpArray = new int[4];
-                tmpArray[0] = left.first;
-                tmpArray[1] = left.second;
-                tmpArray[2] = right.first;
-                tmpArray[3] = right.second;
+        SegmentTree segmentTreeToWork = new SimpleIntArrayBasedSegmentTree(array) {
 
-                Arrays.sort(tmpArray);
-                SegmentTreeValueNode valueNode = new SegmentTreeValueNode();
-                valueNode.first = tmpArray[3];
-                valueNode.second = tmpArray[2];
-                return valueNode;
+            public int defaultValue() {
+                return -1;
             }
 
-            public SegmentTreeValueNode collectValue(SegmentTreeValueNode previousValue,
-                   SegmentTreeValueNode deltaToBeApplied, int length) {
-
-                if(length == 1) {
-                    if(deltaToBeApplied.first != Integer.MIN_VALUE && deltaToBeApplied.second != Integer.MIN_VALUE) {
-                        return deltaToBeApplied;
-                    }
+            public long joinValue(long left, long right) {
+                if(left == -1) {
+                    return right;
+                } if(right == -1) {
+                    return left;
                 }
-                return previousValue;
-
-
+                return left + right;
             }
 
-            public SegmentTreeValueNode neutralValue() {
-                SegmentTreeValueNode valueNode = new SegmentTreeValueNode();
-                valueNode.first = Integer.MIN_VALUE;
-                valueNode.second = Integer.MIN_VALUE;
-                return valueNode;
-
-            }
-
-            public SegmentTreeValueNode neutralDelta() {
-                return neutralValue();
-            }
-
-                    public boolean shouldDebug() {
-                return false;
-            }
-
-            public SegmentTreeValueNode getDeltaAt(int at) {
-                return neutralValue();
-            }
-
-            public SegmentTreeValueNode joinDelta(SegmentTreeValueNode left, SegmentTreeValueNode right) {
-                return neutralValue();
+            public boolean shouldDebug() {
+                return true;
             }
         };
 
-        segmentTree.initTree();
+        segmentTreeToWork.buildTree();
+        int preWatch;
+        for(int i   =   0;i < queryCount ; i++) {
+            char actionToBeTaken = action[i];
+            int valueToBeOperate = in.readInt();
+            switch (actionToBeTaken) {
+                case 'I':
 
-        int queryCount = in.readInt();
-        for(int i  = 0 ; i  < queryCount ; i++) {
+                    int valueToBeInsert = intHashMap.get(valueToBeOperate);
+                    preWatch = (int) segmentTreeToWork.query(valueToBeInsert,valueToBeInsert);
+                    if(preWatch == -1)
+                        segmentTreeToWork.updateTree(valueToBeInsert,valueToBeInsert,1);
+                    break;
+                case 'K':
 
-            char action = in.readCharacter();
-            int  first  = in.readInt();
-            int second  = in.readInt();
-
-            if(action == 'U') {
-                SegmentTreeValueNode delta = new SegmentTreeValueNode();
-                delta.first = second;
-                delta.second = 0;
-                segmentTree.update(first-1,first-1,delta);
-            } else {
-                SegmentTreeValueNode valueNode = segmentTree.query(first-1,second-1);
-                out.printLine(valueNode.first + valueNode.second);
+                    break;
+                case 'D':
+                    int valueToBeDelete = intHashMap.get(valueToBeOperate);
+                    segmentTreeToWork.updateTree(valueToBeDelete,valueToBeDelete,-1);
+                    break;
+                case 'C':
+                    int valueToBeLook = intHashMap.get(valueToBeOperate);
+                    out.printLine(segmentTreeToWork.query(0,valueToBeLook));
+                    break;
             }
 
         }
 
+
+    }
+
+}
+
+class MyIntHashMap extends MyIntBasedHashSet {
+    private static final Random RND = new Random();
+    private static final int[] SHIFTS = new int[4];
+    private static final byte PRESENT_MASK = 1;
+
+    static {
+        for (int i = 0; i < 4; i++)
+            SHIFTS[i] = RND.nextInt(31) + 1;
+    }
+
+    private int size;
+    private int[] keys;
+    private int[] values;
+    private byte[] present;
+    private int step;
+    private int ratio;
+
+    public MyIntHashMap() {
+        this(3);
     }
 
 
-    private static class SegmentTreeValueNode {
-        private int first;
-        private int second;
+    public MyIntHashMap(int capacity) {
+        capacity = Math.max(capacity, 1);
+        keys = new int[capacity];
+        present = new byte[capacity];
+        values = new int[capacity];
+        ratio = 2;
+        initStep(capacity);
+    }
 
-        public SegmentTreeValueNode() {
+    private void initStep(int capacity) {
+        step = RND.nextInt(capacity - 2) + 1;
+        while (MyIntegerUtils.gcd(step, capacity) != 1)
+            step++;
+    }
 
+    public void add(int value) {
+        throw new UnsupportedOperationException();
+    }
+
+    public void put(int key, int value) {
+        ensureCapacity((size + 1) * ratio);
+        int current = getHash(key);
+        while ((present[current] & PRESENT_MASK) != 0) {
+            if (keys[current] == key) {
+                values[current] = value;
+                return;
+            }
+            current += step;
+            if (current >= keys.length)
+                current -= keys.length;
         }
+        present[current] = PRESENT_MASK;
+        keys[current] = key;
+        values[current] = value;
+        size++;
+    }
 
-        public String toString() {
-           return "("+first+","+second+")";
+    private int getHash(int key) {
+        int result = key;
+        for (int i : SHIFTS)
+            result ^= key >> i;
+        result %= keys.length;
+        if (result < 0)
+            result += keys.length;
+        return result;
+    }
+
+    private void ensureCapacity(int capacity) {
+        if (keys.length < capacity) {
+            capacity = Math.max(capacity * 2, keys.length);
+            rebuild(capacity);
         }
+    }
 
+    private void rebuild(int capacity) {
+        initStep(capacity);
+        int[] oldKeys = keys;
+        byte[] oldPresent = present;
+        int[] oldValues = values;
+        keys = new int[capacity];
+        present = new byte[capacity];
+        values = new int[capacity];
+        size = 0;
+        for (int i = 0; i < oldKeys.length; i++) {
+            if ((oldPresent[i] & PRESENT_MASK) == PRESENT_MASK)
+                put(oldKeys[i], oldValues[i]);
+        }
+    }
+
+    public int get(int key) {
+        int current = getHash(key);
+        while (present[current] != 0) {
+            if (keys[current] == key && (present[current] & PRESENT_MASK) != 0)
+                return values[current];
+            current += step;
+            if (current >= keys.length)
+                current -= keys.length;
+        }
+        throw new NoSuchElementException();
     }
 }
 
@@ -298,194 +377,480 @@ class OutputWriter {
 
 }
 
-class IOUtils {
+interface SegmentTree {
+    public void buildTree();
 
+    public void updateTree(int from,int to,long withValue);
 
-    public static int[] readIntArray(InputReader in,int size) {
-        int[] array =   new int[size];
-        for(int j   =   0;j < size ; j++) {
-            array[j]    =   in.readInt();
-        }
-        return array;
-    }
-
+    public long query(int from,int to);
 
 }
 
-interface AdvancedSegmentTree<V,D>  {
-    public void initTree();
+abstract class SimpleIntArrayBasedSegmentTree extends ArrayBasedSegmentTree{
 
-    public void update(int from,int to,D withValue);
+    private int[] array =   null;
 
-    public V query(int from,int to);
-
-}
-
-abstract class LazyBasedAdvancedArrayBasedSegmentTree<V,D> extends LazyBasedAdvancedSegmentTree<V,D> {
-
-    private V[] array = null;
-
-    public LazyBasedAdvancedArrayBasedSegmentTree(V[] array) {
+    public SimpleIntArrayBasedSegmentTree(int...array) {
         super(array.length);
-        this.array = array;
+        this.array  =   array;
     }
 
-    public V getValueAt(int index) {
+    public long getValueAt(int index) {
         return array[index];
     }
 }
 
-abstract class LazyBasedAdvancedSegmentTree<V,D> implements AdvancedSegmentTree<V,D> {
+class MyIntBasedHashSet extends MyIntBasedSet {
+    private static final Random RND = new Random();
+    private static final int[] SHIFTS = new int[4];
+    private static final byte PRESENT_MASK = 1;
 
-    protected V[] valueAt ;
-    protected D[] deltaAt ;
-    protected int size;
+    static {
+        for (int i = 0; i < 4; i++)
+            SHIFTS[i] = RND.nextInt(31) + 1;
+    }
 
-    public LazyBasedAdvancedSegmentTree(int size) {
+    private int size;
+    private int[] values;
+    private byte[] present;
+    private int step;
+    private int ratio;
 
-        this.size = size;
-        int nodeCount = Math.max(1,Integer.highestOneBit(size) << 2);
-        valueAt = (V[]) new Object[nodeCount << 1];
-        deltaAt = (D[]) new Object[nodeCount << 1];
+    public MyIntBasedHashSet() {
+        this(3);
+    }
+
+
+    public MyIntBasedHashSet(int capacity) {
+        capacity = Math.max(capacity, 1);
+        values = new int[capacity];
+        present = new byte[capacity];
+        ratio = 2;
+        initStep(capacity);
+    }
+
+    private void initStep(int capacity) {
+        step = RND.nextInt(capacity - 2) + 1;
+        while (MyIntegerUtils.gcd(step, capacity) != 1)
+            step++;
+    }
+
+
+    public void add(int value) {
+        ensureCapacity((size + 1) * ratio + 2);
+        int current = getHash(value);
+        while ((present[current] & PRESENT_MASK) != 0) {
+            if (values[current] == value)
+                return;
+            current += step;
+            if (current >= values.length)
+                current -= values.length;
+        }
+        present[current] = PRESENT_MASK;
+        values[current] = value;
+        size++;
+    }
+
+    private int getHash(int value) {
+        int result = value;
+        for (int i : SHIFTS)
+            result ^= value >> i;
+        result %= values.length;
+        if (result < 0)
+            result += values.length;
+        return result;
+    }
+
+    private void ensureCapacity(int capacity) {
+        if (values.length < capacity) {
+            capacity = Math.max(capacity * 2, values.length);
+            rebuild(capacity);
+        }
+    }
+
+    private void rebuild(int capacity) {
+        initStep(capacity);
+        int[] oldValues = values;
+        byte[] oldPresent = present;
+        values = new int[capacity];
+        present = new byte[capacity];
+        size = 0;
+        for (int i = 0; i < oldValues.length; i++) {
+            if ((oldPresent[i] & PRESENT_MASK) == PRESENT_MASK)
+                add(oldValues[i]);
+        }
+    }
+
+
+}
+
+class MyIntegerUtils {
+
+
+    //-------------------------------------------------------
+
+    //-------------------------------------------------------
+
+    /**
+     *
+     * @param first
+     * @param second
+     * @return
+     */
+    public static int gcd(int first,int second) {
+        if(second   ==  0) {
+            return first;
+        }
+        return gcd(second,first%second);
+    }
+
+    //--------------------------------------------------------
+
+    //---------------------------------------------------------
+
+    //------------------------------------------------------------
+
+    //------------------------------------------------------------
+
+
+    //-----------------------------------------------------------
+
+    //--------------------------------------------------------------------------
+
+    //--------------------------------------------------------------------------
+
+    //---------------------------------------------------------------------------
+
+    //--------------------------------------------------------------------------
+
+    //----------------------------------------------------------------
+
+    //-----------------------------------------------------------------
+
+    //---------------------------------------------------------------------
+
+    //-----------------------------------------------------------------
+
+    //------------------------------------------------------------------
+
+    public static long power(long base, long exponent) {
+        if (exponent == 0)
+            return 1;
+        long result = power(base, exponent >> 1);
+        result = result * result;
+        if ((exponent & 1) != 0)
+            result = result * base;
+        return result;
+    }
+
+
+}
+
+abstract class ArrayBasedSegmentTree extends SimpleSegmentTree {
+    public ArrayBasedSegmentTree(int size) {
+        super(size);
+    }
+}
+
+abstract class MyIntBasedSet extends MyIntBasedCollection {
+
+
+}
+
+class Pair<U, V> implements Comparable<Pair<U, V>> {
+    public final U first;
+    public final V second;
+
+    public static<U, V> Pair<U, V> makePair(U first, V second) {
+        return new Pair<U, V>(first, second);
+    }
+
+    private Pair(U first, V second) {
+        this.first = first;
+        this.second = second;
+    }
+
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Pair pair = (Pair) o;
+
+        return !(first != null ? !first.equals(pair.first) : pair.first != null)
+                && !(second != null ? !second.equals(pair.second) : pair.second != null);
 
     }
 
-    public abstract V joinValue(V left,V right);
-    public abstract V collectValue(V previousValue,D deltaToBeApplied,int length);
-    public abstract V neutralValue();
-    public abstract D neutralDelta();
+    public int hashCode() {
+        int result = first != null ? first.hashCode() : 0;
+        result = 31 * result + (second != null ? second.hashCode() : 0);
+        return result;
+    }
 
-    public abstract V getValueAt(int at);
+    public String toString() {
+        return "(" + first + "," + second + ")";
+    }
+
+
+    public int compareTo(Pair<U, V> o) {
+        int value = ((Comparable<U>)first).compareTo(o.first);
+        if (value != 0)
+            return value;
+        return ((Comparable<V>)second).compareTo(o.second);
+    }
+
+}
+
+abstract class SimpleSegmentTree implements SegmentTree {
+
+    private long[] valueAt          =   null;
+    private int leafCount;
+    private int nextPowerOfTwo      =   defaultValue();
+    private int steps               =   defaultValue();
+    private int mappedValueWithStep =   defaultValue();
+
+
+    public abstract int defaultValue();
+
+    public abstract long joinValue(long left,long right);
+
     public abstract boolean shouldDebug();
-    public abstract D getDeltaAt(int at);
-    public abstract D joinDelta(D left,D right);
 
+    public abstract long getValueAt(int index);
 
-    public void initTree() {
-        init(0,0,size-1);
+    public SimpleSegmentTree(int size) {
 
+        int totalNodeCount   = (int) calculateSize(size);
+        valueAt =   new long[totalNodeCount];
+
+        if(shouldDebug()) {
+            System.out.print("Size is::" + size);
+        }
+
+        leafCount    =  size;
     }
 
-    private void init(int root, int left, int right) {
 
-        if(left == right) {
+    public void buildTree() {
+
+
+        if(shouldDebug()) {
+            System.out.println("Build Tree Operation have been started");
+        }
+
+        Arrays.fill(valueAt, defaultValue());
+
+        if(nextPowerOfTwo   ==   Integer.MIN_VALUE) {
+            throw new RuntimeException("Please invoke constructor first to initialize Tree Storage.");
+        }
+
+        int leafStartAt =  mappedValueWithStep;
+
+        if(shouldDebug()) {
+            System.out.println("Left most leaf at::"+leafStartAt);
+        }
+
+        for(int i   =   0;i < leafCount ; i++) {
+
+            long valueToFill    =   getValueAt(i);
+            valueAt[i + leafStartAt]    =  valueToFill;
 
             if(shouldDebug()) {
-                System.out.println("("+root+","+left+","+right+")");
+                System.out.println("leaf at ("+(i + leafStartAt)+") is updated with ("+valueToFill+")");
             }
+        }
 
-            valueAt[root] = getValueAt(left);
+        for(int pos =   leafStartAt-1 ; pos >=0 ; pos--) {
+            valueAt[pos]    =   joinValue(valueAt[ 2 * pos + 1],valueAt[2 * pos + 2]);
+        }
+
+        if(shouldDebug()) {
+            System.out.println("Complete Storage of tree is.");
+            System.out.println(Arrays.asList(Array.wrap(valueAt)));
+            System.out.println("Tree have been built.");
+            System.out.println("----------------------------");
+        }
+    }
+
+    public void updateTree(int from,int to,long withValue) {
+        updateTree(from,withValue);
+    }
+
+    public void updateTree(int at,long withValue) {
+
+        if(shouldDebug()) {
+            System.out.println("Update Operation is about to begin for position ("+at+") with Value ("+withValue+")");
+        }
+
+        int posToUpdate =   at + mappedValueWithStep;
+
+        if(shouldDebug()) {
+            System.out.println("Effective position is ("+posToUpdate+")");
+        }
+
+        valueAt[posToUpdate]    =   withValue;
+
+        if(posToUpdate % 2  ==  0) {
+            posToUpdate--;
+        }
+
+        int rootAt              =   posToUpdate >> 1;
+
+        while(rootAt >= 0 )  {
+            valueAt[rootAt] =   joinValue(valueAt[2 * rootAt + 1],valueAt[2 * rootAt + 2]);
             if(shouldDebug()) {
-                System.out.println("[Value At ["+root+"] is :"+ valueAt[root]);
+                System.out.println("Root at ("+rootAt+")" + "is updated with value ("+valueAt[rootAt]);
             }
-            deltaAt[root] = getDeltaAt(left);
-            return;
+            if(rootAt % 2   ==  0) {
+                rootAt-=1;
+                if(rootAt < 0) {
+                    break;
+                }
+            }
+            rootAt  =   rootAt >> 1;
         }
 
-        int middle = (left + right) >> 1;
-        init(2*root + 1,left,middle);
-        init(2*root + 2,middle + 1,right);
-        valueAt[root] = joinValue(valueAt[2*root + 1],valueAt[2*root + 2]);
-        deltaAt[root] = joinDelta(deltaAt[2*root + 1],deltaAt[2*root + 2]);
-    }
-
-    public void update(int from,int to,D withDelta) {
         if(shouldDebug()) {
-            System.out.println("[Going for update operation.]");
+            System.out.println("After update Tree is ("+Arrays.asList(Array.wrap(valueAt)));
+            System.out.println("Update Operation have been performed successfully.");
+            System.out.println("--------------------------------------");
         }
-        update(0,0,size-1,from,to,withDelta);
     }
 
-    private void update(int root, int left, int right, int from, int to, D withDelta) {
 
-        if(left > to || right < from) {
+
+    public long query(int from,int to) {
+
+        if(shouldDebug()) {
+            System.out.println("We are going to query for range ("+from+",to"+to+")");
+        }
+        return query(0,0,mappedValueWithStep,from,to);
+
+    }
+
+    private long query(int root, int left, int right, int from, int to) {
+
+        if(shouldDebug()) {
+            System.out.println("Root is::"+root);
+            System.out.println("Now interval is "+Pair.makePair(left,right));
+            System.out.println("Querying for interval "+Pair.makePair(from,to));
+        }
+
+        if(from > right || to < left) {
+
             if(shouldDebug()) {
-                System.out.println("[Outside Boundry]:"+"("+left+","+right+")");
+                System.out.println("Outside limit::"+Pair.makePair(from,to));
             }
-            return;
+           return defaultValue();
         }
-
-        if(left >= from && right <= to)  {
-
-            this.deltaAt[root] = joinDelta(withDelta,this.deltaAt[root]);
-            this.valueAt[root] = collectValue(this.valueAt[root],withDelta, right - left + 1);
-            if(shouldDebug()) {
-                System.out.println("[Range have been found.] "+"("+left+","+right+") for root :("+root+")");
-                System.out.println("[Value at root is] "+this.valueAt[root]);
-            }
-            return;
-        }
-
-        this.deltaAt[2*root + 1] = joinDelta(this.deltaAt[2*root + 1],this.deltaAt[root]);
-        this.deltaAt[2*root + 2] = joinDelta(this.deltaAt[2*root + 2],this.deltaAt[root]);
-        int middle = (left + right) >> 1;
-        this.valueAt[2*root + 1] =  collectValue(this.valueAt[2*root + 1],this.deltaAt[root],middle-left+1);
-        this.valueAt[2*root + 2] =  collectValue(this.valueAt[2*root + 2],this.deltaAt[root],right - middle);
-
-        this.deltaAt[root] = neutralDelta();
-
-        if(shouldDebug()) {
-            System.out.println("[Going to update range for ] "+"("+left+","+middle+")");
-        }
-        update(2*root + 1,left,middle,from,to,withDelta);
-
-        if(shouldDebug()) {
-            System.out.println("[Going to update range for ] "+"("+ (middle + 1)+","+right+")");
-        }
-        update(2*root + 2,middle + 1,right ,from,to,withDelta);
-
-        this.valueAt[root] = joinValue(this.valueAt[2*root + 1],this.valueAt[2*root + 2]);
-        if(shouldDebug()) {
-            System.out.println("[Value Joined At " + root+" is] "+this.valueAt[root]);
-        }
-    }
-
-
-    public V query(int from , int to) {
-        if(shouldDebug()) {
-            System.out.println("[Going for query operation] "+"("+from+","+to+")");
-        }
-        return query(0,0,size-1,from,to);
-    }
-
-    private V query(int root, int left, int right, int from, int to) {
-
-        if(shouldDebug()) {
-            System.out.println("("+root+","+left+","+right+","+from+","+to);
-        }
-
-
-        if(left > to || right < from) {
-            return neutralValue();
-        }
-
         if(left >= from && right <= to) {
+
             if(shouldDebug()) {
-                System.out.println("[Range have been found.]"+"("+left+","+right+")");
-                System.out.println("Queried Result is::"+this.valueAt[root]);
+                System.out.println("Root is at::"+root);
+                System.out.println("Range have been found ("+Pair.makePair(from,to));
+                System.out.println("Fine,Query Operation have been performed successfully.");
+                System.out.println("----------------------------");
             }
-            return this.valueAt[root];
+            return valueAt[root];
         }
 
-        this.deltaAt[2*root + 1] = joinDelta(this.deltaAt[2*root + 1],this.deltaAt[root]);
-        this.deltaAt[2*root + 2] = joinDelta(this.deltaAt[2*root + 2],this.deltaAt[root]);
+        int middle  =   (left + right) >> 1;
 
-        int middle = (left + right) >> 1;
-
-        this.valueAt[2*root + 1] = collectValue(this.valueAt[2*root +1],this.deltaAt[root],middle-left+1);
-        this.valueAt[2*root + 2] = collectValue(this.valueAt[2*root + 2],this.deltaAt[root],right - middle);
-        this.deltaAt[root] = neutralDelta();
-
-        V leftValue = query(2*root + 1,left,middle,from,to);
-        V rightValue = query(2*root + 2,middle + 1,right,from,to);
+        long leftResult     =   query(2*root + 1,left,middle,from,to) ;
+        long rightResult    =   query(2*root + 2,middle + 1,right,from,to);
 
         if(shouldDebug()) {
-
-            System.out.println("Left Value is :"+leftValue);
-            System.out.println("Right Value is:"+rightValue);
+            System.out.println("Left Result is "+leftResult);
+            System.out.println("Right Result is "+rightResult);
         }
-        return joinValue(leftValue,rightValue);
+        return joinValue(leftResult,rightResult);
     }
+
+    /**
+     *
+     * @param len
+     * @return
+     */
+    public int calculateSize(int len) {
+        nextPowerOfTwo = (int) MiscUtils.nextPowerOfTwoByBitShift(len);
+        steps           =   MiscUtils.stepsRequiredToMakeItOne(nextPowerOfTwo);
+        mappedValueWithStep = (int) (MyIntegerUtils.power(2l, steps-1) -1);
+        if(shouldDebug()) {
+            System.out.print("In calculate Size method ,following information have been processed.\n");
+            System.out.println("Next Power Of Two is::"+nextPowerOfTwo);
+            System.out.println("Step Count is::"+steps);
+            System.out.println("Mapped Value with step is::"+mappedValueWithStep);
+            System.out.println("------------------------------");
+        }
+        return nextPowerOfTwo + mappedValueWithStep;
+    }
+
+}
+
+abstract class MyIntBasedCollection {
+
+
+}
+
+abstract class Array<T> extends AbstractList<T> implements RandomAccess {
+
+    public static List<Long> wrap(long...array) {
+        return new LongArray(array);
+    }
+
+    protected static class LongArray extends Array<Long> {
+        protected final long[] array;
+
+        protected LongArray(long[] array) {
+            this.array = array;
+        }
+
+        public int size() {
+            return array.length;
+        }
+
+        public Long get(int index) {
+            return array[index];
+        }
+
+        public Long set(int index, Long value) {
+            long result = array[index];
+            array[index] = value;
+            return result;
+        }
+    }
+
+}
+
+class MiscUtils {
+
+
+    public static long nextPowerOfTwoByBitShift(long to) {
+
+        int result  =   1;
+
+        while(result < to) {
+            result  =   result << 1;
+        }
+
+        return result;
+
+    }
+
+    public static int stepsRequiredToMakeItOne(long to) {
+
+        int step    =   0;
+
+        while(to != 0) {
+
+            to =    to >> 1;
+            step++;
+        }
+
+        return step;
+
+    }
+
 
 }
 

@@ -5,7 +5,7 @@
     <ignored path="My-Problem-Solvings.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hello.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382212086440" ignored="false" />
-    <file path="/fragment.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421863249943" ignored="false" />
+    <file path="/fragment.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422272667083" ignored="false" />
     <file path="/PalindromePartitionSolver.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382278180865" ignored="false" />
     <file path="/AbstractPalindromeParitionSolver.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1382278518236" ignored="false" />
     <file path="/SolveByDp.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1419178046832" ignored="false" />
@@ -98,7 +98,7 @@
     <file path="/IntervalTreeBasedSolver.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1391780365266" ignored="false" />
     <file path="/SolveWitIntervalTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385779835269" ignored="false" />
     <file path="/SolveWithIntervalTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385781490446" ignored="false" />
-    <file path="/ArrayBasedCompressor.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1402032440458" ignored="false" />
+    <file path="/ArrayBasedCompressor.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422270034529" ignored="false" />
     <file path="/CompressHelper.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385782748802" ignored="false" />
     <file path="/Compressor.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1385782758250" ignored="false" />
     <file path="/NumberOfPalindrome.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1386181383106" ignored="false" />
@@ -309,7 +309,7 @@
     <file path="/Battle.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1398598795460" ignored="false" />
     <file path="/SerejaAndMugs.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1398613445941" ignored="false" />
     <file path="/SerejaAndMirroring.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1398627970623" ignored="false" />
-    <file path="/Dummy.txt" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422190947429" ignored="false" />
+    <file path="/Dummy.txt" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422290205858" ignored="false" />
     <file path="/ChefJumping.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1399024960734" ignored="false" />
     <file path="/CompilerAndParser.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1400236966472" ignored="false" />
     <file path="/Stone.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1399036069443" ignored="false" />
@@ -443,6 +443,12 @@
     <file path="/Bracket61.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421862362956" ignored="false" />
     <file path="/LazyBasedAdvancedArrayBasedSegmentTree.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421562390386" ignored="false" />
     <file path="/MaximumSum3693.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1421868495280" ignored="false" />
+    <file path="/CanYouAnswerTheseQueries2916.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422197572940" ignored="false" />
+    <file path="/OrderSet3273.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422289989089" ignored="false" />
+    <file path="/MyIntBasedHashSet.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422270845668" ignored="false" />
+    <file path="/MyIntBasedSet.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422270921221" ignored="false" />
+    <file path="/HaybaleStacking10500.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422273477826" ignored="false" />
+    <file path="/MyIntHashMap.java" changelist="5915d41b-fc85-41af-b131-253852e40740" time="1422283891875" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -475,43 +481,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
-      </breakpoint>
-    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/spoj/segmenttree/HorribleQueries8002.java" line="91" class="main.spoj.segmenttree.HorribleQueries8002" package="main.spoj.segmenttree">
         <option name="ENABLED" value="true" />
@@ -560,6 +529,43 @@
       </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -573,91 +579,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchInsertPosition.task" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.task">
+      <file leaf-file-name="OrderSet3273.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/spoj/segmenttree/OrderSet3273.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="87" column="0" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.7629382">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SameTree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SameTree.java">
+      <file leaf-file-name="SimpleIntArrayBasedSegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/simple/SimpleIntArrayBasedSegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+            <state line="5" column="67" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchForRange.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchForRange.java">
+      <file leaf-file-name="ArrayBasedSegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/simple/ArrayBasedSegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="30" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
+            <state line="7" column="58" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchInsertPosition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.java">
+      <file leaf-file-name="SimpleSegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/api/SimpleSegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+            <state line="101" column="22" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchInSortedArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInSortedArray.java">
+      <file leaf-file-name="MyIntHashMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="61" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.0">
+            <state line="76" column="13" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubsequenceWeighting.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/dp/SubsequenceWeighting.java">
+      <file leaf-file-name="HaybaleStacking10500.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/spoj/segmenttree/HaybaleStacking10500.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+            <state line="79" column="4" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/Solution.java">
+      <file leaf-file-name="ArrayBasedLazySegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/ArrayBasedLazySegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+            <state line="5" column="9" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumericalPerfectionLevel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/NumericalPerfectionLevel.java">
+      <file leaf-file-name="LazyBasedSegmentTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/LazyBasedSegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="157" column="0" selection-start="5259" selection-end="5259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Regions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Regions.java">
+      <file leaf-file-name="MyIntBasedHashSet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntBasedHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="48" column="39" selection-start="1144" selection-end="1158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumOfPower.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/SumOfPower.java">
+      <file leaf-file-name="MyIntBasedSortedList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntBasedSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="339" selection-end="339" vertical-scroll-proportion="0.3505843">
+            <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -686,14 +692,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/api/my/utils/collections/CollectionUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/api/my/utils/mis/misutils/MiscUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/ArrayBasedLazySegmentTree.java" />
-        <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/LazyBasedSegmentTree.java" />
-        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/HorribleQueries8002.java" />
-        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/LightSwitching7259.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerearth/openfuture/Task6.java" />
-        <option value="$PROJECT_DIR$/src/main/hackerearth/openfuture/Task7.java" />
         <option value="$PROJECT_DIR$/src/main/hackerearth/openfuture/Task2.java" />
         <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/advanced/LazyBasedAdvancedArrayBasedSegmentTree.java" />
         <option value="$PROJECT_DIR$/src/main/api/my/tree/segment/api/AdvancedSegmentTree.java" />
@@ -702,6 +700,14 @@
         <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/Bracket61.java" />
         <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/MaximumSum3693.java" />
         <option value="$PROJECT_DIR$/src/main/geeksforgeek/dp/matrixchainmultipication/MapBasedMemorization.java" />
+        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/CanYouAnswerTheseQueries2916.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/compress/ArrayBasedCompressor.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/compress/CompressHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/collection/MyIntBasedSet.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/collection/MyIntBasedHashSet.java" />
+        <option value="$PROJECT_DIR$/src/main/api/my/collection/MyIntHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/HaybaleStacking10500.java" />
+        <option value="$PROJECT_DIR$/src/main/spoj/segmenttree/OrderSet3273.java" />
       </list>
     </option>
   </component>
@@ -772,7 +778,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -841,12 +846,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my" />
+              <option name="myItemId" value="spoj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-Problem-Solvings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-Problem-Solvings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spoj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="segmenttree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -890,7 +922,7 @@
       <recent name="$PROJECT_DIR$/src/main/hackerrank/special/weekly/year_2014/may/second" />
     </key>
   </component>
-  <component name="RunManager" selected="TopCoder Task.SumOfPower">
+  <component name="RunManager" selected="Task.HaybaleStacking10500">
     <configuration default="false" name="AddTwoNumber" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2774,7 +2806,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="278">
+    <configuration default="false" name="CanYouAnswerTheseQueries2916" type="Task" factoryName="Task">
+      <taskConf>src/main/spoj/segmenttree/CanYouAnswerTheseQueries2916.task</taskConf>
+      <method />
+    </configuration>
+    <configuration default="false" name="OrderSet3273" type="Task" factoryName="Task">
+      <taskConf>src/main/spoj/segmenttree/OrderSet3273.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HaybaleStacking10500" type="Task" factoryName="Task">
+      <taskConf>src/main/spoj/segmenttree/HaybaleStacking10500.task</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="281">
       <item index="0" class="java.lang.String" itemvalue="Task.VSequence" />
       <item index="1" class="java.lang.String" itemvalue="Task.UncleJohny" />
       <item index="2" class="java.lang.String" itemvalue="Task.MissingChairs" />
@@ -3048,11 +3096,14 @@
       <item index="270" class="java.lang.String" itemvalue="Task.Task7" />
       <item index="271" class="java.lang.String" itemvalue="Task.Task2" />
       <item index="272" class="java.lang.String" itemvalue="Task.MaximumSum3693" />
-      <item index="273" class="java.lang.String" itemvalue="Application.AddTwoNumber" />
-      <item index="274" class="java.lang.String" itemvalue="Application.ReverseInteger" />
-      <item index="275" class="java.lang.String" itemvalue="Application.TaskA" />
-      <item index="276" class="java.lang.String" itemvalue="Application.TaskD" />
-      <item index="277" class="java.lang.String" itemvalue="Application.AllInterpretationOfDigits" />
+      <item index="273" class="java.lang.String" itemvalue="Task.CanYouAnswerTheseQueries2916" />
+      <item index="274" class="java.lang.String" itemvalue="Task.OrderSet3273" />
+      <item index="275" class="java.lang.String" itemvalue="Task.HaybaleStacking10500" />
+      <item index="276" class="java.lang.String" itemvalue="Application.AddTwoNumber" />
+      <item index="277" class="java.lang.String" itemvalue="Application.ReverseInteger" />
+      <item index="278" class="java.lang.String" itemvalue="Application.TaskA" />
+      <item index="279" class="java.lang.String" itemvalue="Application.TaskD" />
+      <item index="280" class="java.lang.String" itemvalue="Application.AllInterpretationOfDigits" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -3116,7 +3167,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="24" width="1311" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5392" order="6" side_tool="false" content_ui="tabs" />
@@ -3136,7 +3187,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29486167" sideWeight="0.2736" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7264" sideWeight="0.49885583" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.72873193" sideWeight="0.49885583" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="156" y="149" width="1111" height="544" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964426" sideWeight="0.165" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24901186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -3219,102 +3270,102 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/geeksforgeek/dp/palindromepartitioning/SolveByDp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/compress/Compressor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.0" />
+        <state line="3" column="27" selection-start="49" selection-end="59" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/geeksforgeek/dp/AllInterpretationOfDigits.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/compress/ArrayBasedCompressor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" />
+        <state line="23" column="34" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/recursion/TaskA.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/compress/CompressHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
+        <state line="29" column="4" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/recursion/TaskB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
+        <state line="6" column="23" selection-start="143" selection-end="151" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/recursion/TaskC.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntBasedSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="22" selection-start="3058" selection-end="3058" vertical-scroll-proportion="0.0" />
+        <state line="2" column="43" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/crackingcodinginterviews/linkedlist/ReverseLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/SimpleIntArrayBasedLazySegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" />
+        <state line="5" column="71" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.task">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/ArrayBasedLazySegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5" column="9" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SameTree.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/lazy/LazyBasedSegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+        <state line="157" column="0" selection-start="5259" selection-end="5259" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchForRange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntBasedHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="30" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
+        <state line="48" column="39" selection-start="1144" selection-end="1158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInsertPosition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+        <state line="76" column="13" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/SearchInSortedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/spoj/segmenttree/HaybaleStacking10500.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="61" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.0">
+        <state line="79" column="4" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/dp/SubsequenceWeighting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/simple/SimpleIntArrayBasedSegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+        <state line="5" column="67" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/hackerrank/practice/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/simple/ArrayBasedSegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
+        <state line="7" column="58" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/NumericalPerfectionLevel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/tree/segment/api/SimpleSegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="101" column="22" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Regions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/spoj/segmenttree/OrderSet3273.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="87" column="0" selection-start="2853" selection-end="2853" vertical-scroll-proportion="0.7629382">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SumOfPower.java">
+    <entry file="file://$PROJECT_DIR$/src/main/api/my/collection/MyIntBasedSortedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="339" selection-end="339" vertical-scroll-proportion="0.3505843">
+        <state line="7" column="22" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
